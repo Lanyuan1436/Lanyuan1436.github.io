@@ -1471,6 +1471,7 @@ canvas:not(#ribbon-canvas),
   --default-bg-color: #49b1f5;
   --zoom-bg: #fff;
   --mark-bg: rgba(0,0,0,0.3);
+  --sean-colour: #37474f;
 }
 body {
   position: relative;

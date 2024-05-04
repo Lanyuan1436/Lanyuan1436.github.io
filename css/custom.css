@@ -368,3 +368,7 @@ div#category {
 #article-container figure.highlight {
   border-radius: 10px;
 }
+
+:root{
+  --sean-colour: #37474f
+}

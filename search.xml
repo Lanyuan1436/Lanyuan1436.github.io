@@ -1,23 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>butterfly主题配置日记之二</title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[<h1 id="math教学："><a href="#math教学：" class="headerlink" title="math教学："></a>math教学：</h1><p>不知道是什么东西呐，应该用不着。默认就好了</p>
+<h1 id="搜索："><a href="#搜索：" class="headerlink" title="搜索："></a>搜索：</h1><p>啊，这个东西浪费了我好长时间，不过搞定了就好QAQ</p>
+<ol>
+<li><p>你需要安裝 hexo-generator-searchdb 或者 hexo-generator-search，根據它的文檔去做相應配置</p>
+</li>
+<li><p>修改 主題配置文件</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">CDN:</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="分享："><a href="#分享：" class="headerlink" title="分享："></a>分享：</h1><p>也不需要分享了啦，没弄</p>
+<h1 id="评论："><a href="#评论：" class="headerlink" title="评论："></a>评论：</h1><p>这个也弄了挺长时间的，弄得免费的，有钱了再换w</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">comments:</span></span><br><span class="line">  <span class="comment"># Up to two comments system, the first will be shown as default</span></span><br><span class="line">  <span class="comment"># Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk</span></span><br><span class="line">  <span class="attr">use:</span> <span class="string">Twikoo</span> <span class="comment"># Valine,Disqus</span></span><br><span class="line">  <span class="attr">text:</span> <span class="literal">true</span> <span class="comment"># Display the comment name next to the button</span></span><br><span class="line">  <span class="comment"># lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span></span><br><span class="line">  <span class="comment"># If you set it to true, the comment count will be invalid</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">false</span> <span class="comment"># Display comment count in post&#x27;s top_img</span></span><br><span class="line">  <span class="attr">card_post_count:</span> <span class="literal">false</span> <span class="comment"># Display comment count in Home Page</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="在线聊天"><a href="#在线聊天" class="headerlink" title="在线聊天"></a>在线聊天</h1><p>唔，有评论区就够了~</p>
+<h1 id="分析统计"><a href="#分析统计" class="headerlink" title="分析统计"></a>分析统计</h1><p>意义不明</p>
+<h1 id="广告"><a href="#广告" class="headerlink" title="广告"></a>广告</h1><p>？ 不打广告</p>
+<h1 id="网站认证"><a href="#网站认证" class="headerlink" title="网站认证"></a>网站认证</h1><p>以后变厉害了就弄一弄吧</p>
+<h1 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h1><p>来到我们的正题！美化~一个好看的网站才让人有更新的动力，和吸引别人看的兴趣吧·</p>
+<h2 id="主题颜色"><a href="#主题颜色" class="headerlink" title="主题颜色"></a>主题颜色</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_color:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">main:</span> <span class="string">&quot;#49B1F5&quot;</span></span><br><span class="line">  <span class="attr">paginator:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">button_hover:</span> <span class="string">&quot;#FF7242&quot;</span></span><br><span class="line">  <span class="attr">text_selection:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">link_color:</span> <span class="string">&quot;#99a9bf&quot;</span></span><br><span class="line">  <span class="attr">meta_color:</span> <span class="string">&quot;#858585&quot;</span></span><br><span class="line">  <span class="attr">hr_color:</span> <span class="string">&quot;#A4D8FA&quot;</span></span><br><span class="line">  <span class="attr">code_foreground:</span> <span class="string">&quot;#F47466&quot;</span></span><br><span class="line">  <span class="attr">code_background:</span> <span class="string">&quot;rgba(27, 31, 35, .05)&quot;</span></span><br><span class="line">  <span class="attr">toc_color:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">blockquote_padding_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br><span class="line">  <span class="attr">blockquote_background_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br><span class="line">  <span class="attr">scrollbar_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br></pre></td></tr></table></figure>
+<p>没啥头绪，先不改w</p>
+<h2 id="主页top-img显示大小"><a href="#主页top-img显示大小" class="headerlink" title="主页top_img显示大小"></a>主页top_img显示大小</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">index_top_img_height:</span> <span class="string">400px</span></span><br></pre></td></tr></table></figure>
+<p>我是一图流来着，这个就不用管了</p>
+<h2 id="文字左右对齐"><a href="#文字左右对齐" class="headerlink" title="文字左右对齐"></a>文字左右对齐</h2><p>设置文字向两侧对齐？？？没啥必要吧</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Stretches the lines so that each line has equal width（文字向兩側對齊，對最後一行無效）</span></span><br><span class="line"><span class="attr">text_align_justify:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="网站背景"><a href="#网站背景" class="headerlink" title="网站背景"></a>网站背景</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">background:</span> <span class="string">url(https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/4cfb7430f6ee279d.jpg)</span></span><br></pre></td></tr></table></figure>
+<p>设置了夸宝的图片，</p>
+<h2 id="footer背景"><a href="#footer背景" class="headerlink" title="footer背景"></a>footer背景</h2><p>关掉，嗯，找到合适的图再来设置你</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Footer Background</span></span><br><span class="line"><span class="attr">footer_bg:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="打字效果"><a href="#打字效果" class="headerlink" title="打字效果"></a>打字效果</h2><p>搞那么卡干嘛 NG no；</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">activate_power_mode:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">colorful:</span> <span class="literal">true</span> <span class="comment"># open particle animation (冒光特效)</span></span><br><span class="line">  <span class="attr">shake:</span> <span class="literal">true</span> <span class="comment">#  open shake (抖動特效)</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="背景特效"><a href="#背景特效" class="headerlink" title="背景特效"></a>背景特效</h2><p>有三种：选canvas-nest</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">canvas_nest:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">&#x27;0,0,255&#x27;</span> <span class="comment">#color of lines, default: &#x27;0,0,0&#x27;; RGB values: (R,G,B).(<span class="doctag">note:</span> use &#x27;,&#x27; to separate.)</span></span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.7</span> <span class="comment"># the opacity of line (0~1), default: 0.5.</span></span><br><span class="line">  <span class="attr">zIndex:</span> <span class="number">-1</span> <span class="comment"># z-index property of the background, default: -1.</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">99</span> <span class="comment"># the number of lines, default: 99.</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h2 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h2><p>我还是找找别的吧！</p>
+<h2 id="页面美化"><a href="#页面美化" class="headerlink" title="页面美化"></a>页面美化</h2><p>感觉也没用必要的样子 不开</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Beautify (美化頁面顯示)</span></span><br><span class="line"><span class="attr">beautify:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># site/post</span></span><br><span class="line">  <span class="attr">title-prefix-icon:</span> <span class="comment"># &#x27;\f0c1&#x27;</span></span><br><span class="line">  <span class="attr">title-prefix-icon-color:</span> <span class="comment"># &#x27;#F47466&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="自定义字体"><a href="#自定义字体" class="headerlink" title="自定义字体"></a>自定义字体</h2><p>诶，都可以的啦</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Global font settings</span></span><br><span class="line"><span class="comment"># Don&#x27;t modify the following settings unless you know how they work (非必要不要修改)</span></span><br><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">global-font-size:</span></span><br><span class="line">  <span class="attr">code-font-size:</span></span><br><span class="line">  <span class="attr">font-family:</span></span><br><span class="line">  <span class="attr">code-font-family:</span></span><br><span class="line"><span class="comment"># Font settings for the site title and site subtitle</span></span><br><span class="line"><span class="comment"># 左上角網站名字 主頁居中網站名字</span></span><br><span class="line"><span class="attr">blog_title_font:</span></span><br><span class="line">  <span class="attr">font_link:</span></span><br><span class="line">  <span class="attr">font-family:</span></span><br></pre></td></tr></table></figure>
+<h2 id="网站副标题"><a href="#网站副标题" class="headerlink" title="网站副标题"></a>网站副标题</h2><p>这个也挺好看的 可以弄一下</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 主頁subtitle</span></span><br><span class="line"><span class="attr">subtitle:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Typewriter Effect (打字效果)</span></span><br><span class="line">  <span class="attr">effect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">startDelay:</span> <span class="number">300</span> <span class="comment"># time before typing starts in milliseconds</span></span><br><span class="line">  <span class="attr">typeSpeed:</span> <span class="number">150</span> <span class="comment"># type speed in milliseconds</span></span><br><span class="line">  <span class="attr">backSpeed:</span> <span class="number">50</span> <span class="comment"># backspacing speed in milliseconds</span></span><br><span class="line">  <span class="comment"># loop (循環打字)</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># source 調用第三方服務</span></span><br><span class="line">  <span class="comment"># source: false 關閉調用</span></span><br><span class="line">  <span class="comment"># source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/</span></span><br><span class="line">  <span class="comment"># source: 2  調用一句網（簡體） http://yijuzhan.com/</span></span><br><span class="line">  <span class="comment"># source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/</span></span><br><span class="line">  <span class="comment"># subtitle 會先顯示 source , 再顯示 sub 的內容</span></span><br><span class="line">  <span class="attr">source:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字</span></span><br><span class="line">  <span class="attr">sub:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">今天也在努力学习中</span> <span class="string">gogogo</span></span><br></pre></td></tr></table></figure>
+<h2 id="页面加载动画"><a href="#页面加载动画" class="headerlink" title="页面加载动画"></a>页面加载动画</h2><p>當進入網頁時，因為加載速度的問題，可能會導致 top_img 圖片出現斷層顯示，或者網頁加載不全而出現等待時間，開啟preloader後，會顯示加載動畫，等頁面加載完，加載動畫會消失。</p>
+<p>主題支持 pace.js 的加載動畫，具體可查看 pace.js</p>
+<p>配置 butterly.yml</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 加載動畫 Loading Animation</span></span><br><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># source</span></span><br><span class="line">  <span class="comment"># 1. fullpage-loading</span></span><br><span class="line">  <span class="comment"># 2. pace (progress bar)</span></span><br><span class="line">  <span class="attr">source:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># pace theme (see https://codebyzach.github.io/pace/)</span></span><br><span class="line">  <span class="attr">pace_css_url:</span></span><br></pre></td></tr></table></figure>
+<p>先放着</p>
+<h1 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># wordcount (字數統計)</span></span><br><span class="line"><span class="comment"># see https://butterfly.js.org/posts/ceeb73f/#字數統計</span></span><br><span class="line"><span class="attr">wordcount:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post_wordcount:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">min2read:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_wordcount:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h1 id="图片放大查看模式"><a href="#图片放大查看模式" class="headerlink" title="图片放大查看模式"></a>图片放大查看模式</h1><p>不需要</p>
+<h1 id="Pjax"><a href="#Pjax" class="headerlink" title="Pjax"></a>Pjax</h1><p>配了吧？ </p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Snackbar 彈窗</span></span><br><span class="line"><span class="comment"># https://github.com/polonel/SnackBar</span></span><br><span class="line"><span class="comment"># position 彈窗位置</span></span><br><span class="line"><span class="comment"># 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right</span></span><br><span class="line"><span class="attr">snackbar:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">bottom-left</span></span><br><span class="line">  <span class="attr">bg_light:</span> <span class="string">&#x27;#49b1f5&#x27;</span> <span class="comment">#light mode時彈窗背景</span></span><br><span class="line">  <span class="attr">bg_dark:</span> <span class="string">&#x27;#2d3035&#x27;</span> <span class="comment">#dark mode時彈窗背景</span></span><br></pre></td></tr></table></figure>
+<h1 id="Snackbar弹窗"><a href="#Snackbar弹窗" class="headerlink" title="Snackbar弹窗"></a>Snackbar弹窗</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">snackbar:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">top-center</span></span><br><span class="line">  <span class="attr">bg_light:</span> <span class="string">&#x27;#49b1f5&#x27;</span> <span class="comment"># The background color of Toast Notification in light mode</span></span><br><span class="line">  <span class="attr">bg_dark:</span> <span class="string">&#x27;#1f1f1f&#x27;</span> <span class="comment"># The background color of Toast Notification in dark mode</span></span><br></pre></td></tr></table></figure>
+<h1 id="Instantpage"><a href="#Instantpage" class="headerlink" title="Instantpage"></a>Instantpage</h1><p>鼠标悬停会预加载；好神奇来一个</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># https://instant.page/</span></span><br><span class="line"><span class="comment"># prefetch (預加載)</span></span><br><span class="line"><span class="attr">instantpage:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h1 id="Pabgu"><a href="#Pabgu" class="headerlink" title="Pabgu"></a>Pabgu</h1><p>no need</p>
+<h1 id="PWA"><a href="#PWA" class="headerlink" title="PWA"></a>PWA</h1><p>配过了吧</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>test1</title>
-    <url>/posts/8ab2dce2.html</url>
-    <content><![CDATA[]]></content>
+      <tags>
+        <tag>butterfly</tag>
+        <tag>主题</tag>
+        <tag>日记</tag>
+      </tags>
   </entry>
   <entry>
     <title>butterfly主题配置日记</title>
@@ -421,134 +464,9 @@
       </tags>
   </entry>
   <entry>
-    <title>test2</title>
-    <url>/posts/13bb8d58.html</url>
+    <title>test1</title>
+    <url>/posts/8ab2dce2.html</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>渗透日记之一</title>
-    <url>/posts/bf942380.html</url>
-    <content><![CDATA[<h1 id="环境下载"><a href="#环境下载" class="headerlink" title="环境下载"></a>环境下载</h1><p>下载并解压获得的文件。</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503214231565.png" alt="image-20240503214231565"></p>
-<p>点击VMware 文件 =&gt; 扫描虚拟机。 选择安装目录 通过虚拟机扫描直接添加进VMware</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503214945077.png" alt="image-20240503214945077" style="zoom: 50%;" /> </p>
-<h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><h2 id="拓扑图如下"><a href="#拓扑图如下" class="headerlink" title="拓扑图如下"></a>拓扑图如下</h2><p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503215713087.png" alt="image-20240503215713087" style="zoom: 50%;" /> </p>
-<h2 id="网卡配置"><a href="#网卡配置" class="headerlink" title="网卡配置"></a>网卡配置</h2><p>点击 编辑 =&gt; 虚拟网络编辑器。在里面配置网卡。</p>
-<p><img src="C:\Users\moaiyuan\AppData\Roaming\Typora\typora-user-images\image-20240503220012554.png" alt="image-20240503220012554" style="zoom: 50%;" /> </p>
-<p>首先要点击 更改设置 管理员模式才能对这个进行更改。</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503221244410.png" alt="image-20240503221244410" style="zoom:50%;" /> </p>
-<p>根据拓扑图，需要设置一个nat模式的 以及两个 仅主机模式的网卡,不过nat模式可以自动获取，并且这里centos也已经配好了IP地址，所以可以不用管的</p>
-<p>那么就只需要配置192.168.22.0/24和192.168.33.0/24段的网卡。设置好子网IP和子网掩码就ok了，还有DHCP也要设置一下从0到255.</p>
-<p><img src="image-20240503224427829.png" alt="image-20240503224427829" style="zoom:50%;" /> vmnet3</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503224543245.png" alt="image-20240503224543245" style="zoom:50%;" /> vmnet2</p>
-<p>配置完成后就可以给机器安装网卡了</p>
-<h3 id="选中Target1"><a href="#选中Target1" class="headerlink" title="选中Target1"></a>选中Target1</h3><p>点击 编辑虚拟器设置 =&gt; 添加 =&gt; 网络适配器 =&gt; 确认</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225003749.png" alt="image-20240503225003749"> </p>
-<p>设置成该图就好了</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225050960.png" alt="image-20240503225050960" style="zoom:50%;" /> </p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225109418.png" alt="image-20240503225109418" style="zoom:50%;" /> </p>
-<h3 id="选择target2"><a href="#选择target2" class="headerlink" title="选择target2"></a>选择target2</h3><p>这个样子就好</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225324349.png" alt="image-20240503225324349" style="zoom:50%;" /> </p>
-<h3 id="选中target3"><a href="#选中target3" class="headerlink" title="选中target3"></a>选中target3</h3><p>如图~</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225441205.png" alt="image-20240503225441205" style="zoom:50%;" /> </p>
-<h2 id="配置宝塔web服务"><a href="#配置宝塔web服务" class="headerlink" title="配置宝塔web服务"></a>配置宝塔web服务</h2><p>登录进入Target1，账号密码在左下角的描述都有说明 （root : root）</p>
-<p>输入ifconfig查看配置是否成功</p>
-<p><img src="image-20240503230007032.png" alt="image-20240503230007032" style="zoom: 67%;" /> </p>
-<p>嗯，看到如图差不多的样子就说明成功，其中192.168.190.132 会视情况有所不同。</p>
-<p>没有获取IP地址可以尝试</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl restart network <span class="comment">#重启网络</span></span><br><span class="line">reboot <span class="comment">#重启系统</span></span><br></pre></td></tr></table></figure>
-<p>以及物理机重启该网卡</p>
-<p>这之后就能对宝塔的web服务进行配置了。</p>
-<p>访问</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">http://你的IP地址:8888/a768f109/</span></span><br></pre></td></tr></table></figure>
-<p>输入账号密码</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">账号：eaj3yhsl</span></span><br><span class="line"><span class="string">密码：41bb8fee</span></span><br></pre></td></tr></table></figure>
-<p>这之后点击网站 =&gt;设置 =&gt; 域名管理 =&gt; 添加两个IP地址的站点</p>
-<p> <img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503233237564.png" alt="image-20240503233237564"></p>
-<p><img src="image-20240503231201812.png" alt="image-20240503231201812"></p>
-<p>访问如上的url 看到如上界面就代表成功了·</p>
-<p>进入Target2。账号密码还是左下描述有 （root ：root),还是老样子 ifconfig看配置成功没有</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231515572.png" alt="image-20240503231515572" style="zoom:67%;" /> </p>
-<p>不过这里还要回去改一下虚拟网卡的设置  设置能够连接到主机不然连不上web，连接完记得改回去</p>
-<p><img src="image-20240503231854373.png" alt="image-20240503231854373" style="zoom:50%;" /> </p>
-<p>进入web后台，这里都一样不用改了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://192.168.22.22:8888/2cc52ec0/</span><br><span class="line">账号：xdynr37d</span><br><span class="line">密码：123qwe..</span><br></pre></td></tr></table></figure>
-<p>网站 =&gt; 设置 =&gt; 添加域名 192.168.33.22 ,浏览器访问192.168.22.22页面成功就好了</p>
-<p> <img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503233549824.png" alt="image-20240503233549824" style="zoom:50%;" /></p>
-<p>最后进入Target3， 密码root，输入ipconfig</p>
-<p>能看见ip地址就说明成功 当然也可以ping一下</p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234121231.png" alt="image-20240503234121231"> </p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234411799.png" alt="image-20240503234411799" style="zoom: 67%;" /> </p>
-<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234459802.png" alt="image-20240503234459802" style="zoom:80%;" /> </p>
-<p>最后改成不连接主机，大功告成。</p>
-<p>最后还可以拍摄一下快照。</p>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>渗透</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>butterfly主题配置日记之二</title>
-    <url>/posts/0.html</url>
-    <content><![CDATA[<h1 id="math教学："><a href="#math教学：" class="headerlink" title="math教学："></a>math教学：</h1><p>不知道是什么东西呐，应该用不着。默认就好了</p>
-<h1 id="搜索："><a href="#搜索：" class="headerlink" title="搜索："></a>搜索：</h1><p>啊，这个东西浪费了我好长时间，不过搞定了就好QAQ</p>
-<ol>
-<li><p>你需要安裝 hexo-generator-searchdb 或者 hexo-generator-search，根據它的文檔去做相應配置</p>
-</li>
-<li><p>修改 主題配置文件</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># Preload the search data when the page loads.</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Show top n results per article, show all results by setting to -1</span></span><br><span class="line">  <span class="attr">top_n_per_article:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># Unescape html strings to the readable one.</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">CDN:</span></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="分享："><a href="#分享：" class="headerlink" title="分享："></a>分享：</h1><p>也不需要分享了啦，没弄</p>
-<h1 id="评论："><a href="#评论：" class="headerlink" title="评论："></a>评论：</h1><p>这个也弄了挺长时间的，弄得免费的，有钱了再换w</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">comments:</span></span><br><span class="line">  <span class="comment"># Up to two comments system, the first will be shown as default</span></span><br><span class="line">  <span class="comment"># Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk</span></span><br><span class="line">  <span class="attr">use:</span> <span class="string">Twikoo</span> <span class="comment"># Valine,Disqus</span></span><br><span class="line">  <span class="attr">text:</span> <span class="literal">true</span> <span class="comment"># Display the comment name next to the button</span></span><br><span class="line">  <span class="comment"># lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span></span><br><span class="line">  <span class="comment"># If you set it to true, the comment count will be invalid</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">false</span> <span class="comment"># Display comment count in post&#x27;s top_img</span></span><br><span class="line">  <span class="attr">card_post_count:</span> <span class="literal">false</span> <span class="comment"># Display comment count in Home Page</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="在线聊天"><a href="#在线聊天" class="headerlink" title="在线聊天"></a>在线聊天</h1><p>唔，有评论区就够了~</p>
-<h1 id="分析统计"><a href="#分析统计" class="headerlink" title="分析统计"></a>分析统计</h1><p>意义不明</p>
-<h1 id="广告"><a href="#广告" class="headerlink" title="广告"></a>广告</h1><p>？ 不打广告</p>
-<h1 id="网站认证"><a href="#网站认证" class="headerlink" title="网站认证"></a>网站认证</h1><p>以后变厉害了就弄一弄吧</p>
-<h1 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h1><p>来到我们的正题！美化~一个好看的网站才让人有更新的动力，和吸引别人看的兴趣吧·</p>
-<h2 id="主题颜色"><a href="#主题颜色" class="headerlink" title="主题颜色"></a>主题颜色</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme_color:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">main:</span> <span class="string">&quot;#49B1F5&quot;</span></span><br><span class="line">  <span class="attr">paginator:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">button_hover:</span> <span class="string">&quot;#FF7242&quot;</span></span><br><span class="line">  <span class="attr">text_selection:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">link_color:</span> <span class="string">&quot;#99a9bf&quot;</span></span><br><span class="line">  <span class="attr">meta_color:</span> <span class="string">&quot;#858585&quot;</span></span><br><span class="line">  <span class="attr">hr_color:</span> <span class="string">&quot;#A4D8FA&quot;</span></span><br><span class="line">  <span class="attr">code_foreground:</span> <span class="string">&quot;#F47466&quot;</span></span><br><span class="line">  <span class="attr">code_background:</span> <span class="string">&quot;rgba(27, 31, 35, .05)&quot;</span></span><br><span class="line">  <span class="attr">toc_color:</span> <span class="string">&quot;#00c4b6&quot;</span></span><br><span class="line">  <span class="attr">blockquote_padding_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br><span class="line">  <span class="attr">blockquote_background_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br><span class="line">  <span class="attr">scrollbar_color:</span> <span class="string">&quot;#49b1f5&quot;</span></span><br></pre></td></tr></table></figure>
-<p>没啥头绪，先不改w</p>
-<h2 id="主页top-img显示大小"><a href="#主页top-img显示大小" class="headerlink" title="主页top_img显示大小"></a>主页top_img显示大小</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">index_top_img_height:</span> <span class="string">400px</span></span><br></pre></td></tr></table></figure>
-<p>我是一图流来着，这个就不用管了</p>
-<h2 id="文字左右对齐"><a href="#文字左右对齐" class="headerlink" title="文字左右对齐"></a>文字左右对齐</h2><p>设置文字向两侧对齐？？？没啥必要吧</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Stretches the lines so that each line has equal width（文字向兩側對齊，對最後一行無效）</span></span><br><span class="line"><span class="attr">text_align_justify:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h2 id="网站背景"><a href="#网站背景" class="headerlink" title="网站背景"></a>网站背景</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">background:</span> <span class="string">url(https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/4cfb7430f6ee279d.jpg)</span></span><br></pre></td></tr></table></figure>
-<p>设置了夸宝的图片，</p>
-<h2 id="footer背景"><a href="#footer背景" class="headerlink" title="footer背景"></a>footer背景</h2><p>关掉，嗯，找到合适的图再来设置你</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Footer Background</span></span><br><span class="line"><span class="attr">footer_bg:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h2 id="打字效果"><a href="#打字效果" class="headerlink" title="打字效果"></a>打字效果</h2><p>搞那么卡干嘛 NG no；</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">activate_power_mode:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">colorful:</span> <span class="literal">true</span> <span class="comment"># open particle animation (冒光特效)</span></span><br><span class="line">  <span class="attr">shake:</span> <span class="literal">true</span> <span class="comment">#  open shake (抖動特效)</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h2 id="背景特效"><a href="#背景特效" class="headerlink" title="背景特效"></a>背景特效</h2><p>有三种：选canvas-nest</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">canvas_nest:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">&#x27;0,0,255&#x27;</span> <span class="comment">#color of lines, default: &#x27;0,0,0&#x27;; RGB values: (R,G,B).(<span class="doctag">note:</span> use &#x27;,&#x27; to separate.)</span></span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.7</span> <span class="comment"># the opacity of line (0~1), default: 0.5.</span></span><br><span class="line">  <span class="attr">zIndex:</span> <span class="number">-1</span> <span class="comment"># z-index property of the background, default: -1.</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">99</span> <span class="comment"># the number of lines, default: 99.</span></span><br><span class="line">  <span class="attr">mobile:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h2 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h2><p>我还是找找别的吧！</p>
-<h2 id="页面美化"><a href="#页面美化" class="headerlink" title="页面美化"></a>页面美化</h2><p>感觉也没用必要的样子 不开</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Beautify (美化頁面顯示)</span></span><br><span class="line"><span class="attr">beautify:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span> <span class="comment"># site/post</span></span><br><span class="line">  <span class="attr">title-prefix-icon:</span> <span class="comment"># &#x27;\f0c1&#x27;</span></span><br><span class="line">  <span class="attr">title-prefix-icon-color:</span> <span class="comment"># &#x27;#F47466&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="自定义字体"><a href="#自定义字体" class="headerlink" title="自定义字体"></a>自定义字体</h2><p>诶，都可以的啦</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Global font settings</span></span><br><span class="line"><span class="comment"># Don&#x27;t modify the following settings unless you know how they work (非必要不要修改)</span></span><br><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">global-font-size:</span></span><br><span class="line">  <span class="attr">code-font-size:</span></span><br><span class="line">  <span class="attr">font-family:</span></span><br><span class="line">  <span class="attr">code-font-family:</span></span><br><span class="line"><span class="comment"># Font settings for the site title and site subtitle</span></span><br><span class="line"><span class="comment"># 左上角網站名字 主頁居中網站名字</span></span><br><span class="line"><span class="attr">blog_title_font:</span></span><br><span class="line">  <span class="attr">font_link:</span></span><br><span class="line">  <span class="attr">font-family:</span></span><br></pre></td></tr></table></figure>
-<h2 id="网站副标题"><a href="#网站副标题" class="headerlink" title="网站副标题"></a>网站副标题</h2><p>这个也挺好看的 可以弄一下</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 主頁subtitle</span></span><br><span class="line"><span class="attr">subtitle:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># Typewriter Effect (打字效果)</span></span><br><span class="line">  <span class="attr">effect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">startDelay:</span> <span class="number">300</span> <span class="comment"># time before typing starts in milliseconds</span></span><br><span class="line">  <span class="attr">typeSpeed:</span> <span class="number">150</span> <span class="comment"># type speed in milliseconds</span></span><br><span class="line">  <span class="attr">backSpeed:</span> <span class="number">50</span> <span class="comment"># backspacing speed in milliseconds</span></span><br><span class="line">  <span class="comment"># loop (循環打字)</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># source 調用第三方服務</span></span><br><span class="line">  <span class="comment"># source: false 關閉調用</span></span><br><span class="line">  <span class="comment"># source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/</span></span><br><span class="line">  <span class="comment"># source: 2  調用一句網（簡體） http://yijuzhan.com/</span></span><br><span class="line">  <span class="comment"># source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/</span></span><br><span class="line">  <span class="comment"># subtitle 會先顯示 source , 再顯示 sub 的內容</span></span><br><span class="line">  <span class="attr">source:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字</span></span><br><span class="line">  <span class="attr">sub:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">今天也在努力学习中</span> <span class="string">gogogo</span></span><br></pre></td></tr></table></figure>
-<h2 id="页面加载动画"><a href="#页面加载动画" class="headerlink" title="页面加载动画"></a>页面加载动画</h2><p>當進入網頁時，因為加載速度的問題，可能會導致 top_img 圖片出現斷層顯示，或者網頁加載不全而出現等待時間，開啟preloader後，會顯示加載動畫，等頁面加載完，加載動畫會消失。</p>
-<p>主題支持 pace.js 的加載動畫，具體可查看 pace.js</p>
-<p>配置 butterly.yml</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 加載動畫 Loading Animation</span></span><br><span class="line"><span class="attr">preloader:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># source</span></span><br><span class="line">  <span class="comment"># 1. fullpage-loading</span></span><br><span class="line">  <span class="comment"># 2. pace (progress bar)</span></span><br><span class="line">  <span class="attr">source:</span> <span class="number">1</span></span><br><span class="line">  <span class="comment"># pace theme (see https://codebyzach.github.io/pace/)</span></span><br><span class="line">  <span class="attr">pace_css_url:</span></span><br></pre></td></tr></table></figure>
-<p>先放着</p>
-<h1 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># wordcount (字數統計)</span></span><br><span class="line"><span class="comment"># see https://butterfly.js.org/posts/ceeb73f/#字數統計</span></span><br><span class="line"><span class="attr">wordcount:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">post_wordcount:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">min2read:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_wordcount:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h1 id="图片放大查看模式"><a href="#图片放大查看模式" class="headerlink" title="图片放大查看模式"></a>图片放大查看模式</h1><p>不需要</p>
-<h1 id="Pjax"><a href="#Pjax" class="headerlink" title="Pjax"></a>Pjax</h1><p>配了吧？ </p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Snackbar 彈窗</span></span><br><span class="line"><span class="comment"># https://github.com/polonel/SnackBar</span></span><br><span class="line"><span class="comment"># position 彈窗位置</span></span><br><span class="line"><span class="comment"># 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right</span></span><br><span class="line"><span class="attr">snackbar:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">bottom-left</span></span><br><span class="line">  <span class="attr">bg_light:</span> <span class="string">&#x27;#49b1f5&#x27;</span> <span class="comment">#light mode時彈窗背景</span></span><br><span class="line">  <span class="attr">bg_dark:</span> <span class="string">&#x27;#2d3035&#x27;</span> <span class="comment">#dark mode時彈窗背景</span></span><br></pre></td></tr></table></figure>
-<h1 id="Snackbar弹窗"><a href="#Snackbar弹窗" class="headerlink" title="Snackbar弹窗"></a>Snackbar弹窗</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">snackbar:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">top-center</span></span><br><span class="line">  <span class="attr">bg_light:</span> <span class="string">&#x27;#49b1f5&#x27;</span> <span class="comment"># The background color of Toast Notification in light mode</span></span><br><span class="line">  <span class="attr">bg_dark:</span> <span class="string">&#x27;#1f1f1f&#x27;</span> <span class="comment"># The background color of Toast Notification in dark mode</span></span><br></pre></td></tr></table></figure>
-<h1 id="Instantpage"><a href="#Instantpage" class="headerlink" title="Instantpage"></a>Instantpage</h1><p>鼠标悬停会预加载；好神奇来一个</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># https://instant.page/</span></span><br><span class="line"><span class="comment"># prefetch (預加載)</span></span><br><span class="line"><span class="attr">instantpage:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h1 id="Pabgu"><a href="#Pabgu" class="headerlink" title="Pabgu"></a>Pabgu</h1><p>no need</p>
-<h1 id="PWA"><a href="#PWA" class="headerlink" title="PWA"></a>PWA</h1><p>配过了吧</p>
-]]></content>
-      <tags>
-        <tag>butterfly</tag>
-        <tag>主题</tag>
-        <tag>日记</tag>
-      </tags>
   </entry>
   <entry>
     <title>渗透日记之二</title>
@@ -627,5 +545,87 @@
         <tag>日记</tag>
         <tag>渗透</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>渗透日记之一</title>
+    <url>/posts/bf942380.html</url>
+    <content><![CDATA[<h1 id="环境下载"><a href="#环境下载" class="headerlink" title="环境下载"></a>环境下载</h1><p>下载并解压获得的文件。</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503214231565.png" alt="image-20240503214231565"></p>
+<p>点击VMware 文件 =&gt; 扫描虚拟机。 选择安装目录 通过虚拟机扫描直接添加进VMware</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503214945077.png" alt="image-20240503214945077" style="zoom: 50%;" /> </p>
+<h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><h2 id="拓扑图如下"><a href="#拓扑图如下" class="headerlink" title="拓扑图如下"></a>拓扑图如下</h2><p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503215713087.png" alt="image-20240503215713087" style="zoom: 50%;" /> </p>
+<h2 id="网卡配置"><a href="#网卡配置" class="headerlink" title="网卡配置"></a>网卡配置</h2><p>点击 编辑 =&gt; 虚拟网络编辑器。在里面配置网卡。</p>
+<p><img src="C:\Users\moaiyuan\AppData\Roaming\Typora\typora-user-images\image-20240503220012554.png" alt="image-20240503220012554" style="zoom: 50%;" /> </p>
+<p>首先要点击 更改设置 管理员模式才能对这个进行更改。</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503221244410.png" alt="image-20240503221244410" style="zoom:50%;" /> </p>
+<p>根据拓扑图，需要设置一个nat模式的 以及两个 仅主机模式的网卡,不过nat模式可以自动获取，并且这里centos也已经配好了IP地址，所以可以不用管的</p>
+<p>那么就只需要配置192.168.22.0/24和192.168.33.0/24段的网卡。设置好子网IP和子网掩码就ok了，还有DHCP也要设置一下从0到255.</p>
+<p><img src="image-20240503224427829.png" alt="image-20240503224427829" style="zoom:50%;" /> vmnet3</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503224543245.png" alt="image-20240503224543245" style="zoom:50%;" /> vmnet2</p>
+<p>配置完成后就可以给机器安装网卡了</p>
+<h3 id="选中Target1"><a href="#选中Target1" class="headerlink" title="选中Target1"></a>选中Target1</h3><p>点击 编辑虚拟器设置 =&gt; 添加 =&gt; 网络适配器 =&gt; 确认</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225003749.png" alt="image-20240503225003749"> </p>
+<p>设置成该图就好了</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225050960.png" alt="image-20240503225050960" style="zoom:50%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225109418.png" alt="image-20240503225109418" style="zoom:50%;" /> </p>
+<h3 id="选择target2"><a href="#选择target2" class="headerlink" title="选择target2"></a>选择target2</h3><p>这个样子就好</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225324349.png" alt="image-20240503225324349" style="zoom:50%;" /> </p>
+<h3 id="选中target3"><a href="#选中target3" class="headerlink" title="选中target3"></a>选中target3</h3><p>如图~</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225441205.png" alt="image-20240503225441205" style="zoom:50%;" /> </p>
+<h2 id="配置宝塔web服务"><a href="#配置宝塔web服务" class="headerlink" title="配置宝塔web服务"></a>配置宝塔web服务</h2><p>登录进入Target1，账号密码在左下角的描述都有说明 （root : root）</p>
+<p>输入ifconfig查看配置是否成功</p>
+<p><img src="image-20240503230007032.png" alt="image-20240503230007032" style="zoom: 67%;" /> </p>
+<p>嗯，看到如图差不多的样子就说明成功，其中192.168.190.132 会视情况有所不同。</p>
+<p>没有获取IP地址可以尝试</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl restart network <span class="comment">#重启网络</span></span><br><span class="line">reboot <span class="comment">#重启系统</span></span><br></pre></td></tr></table></figure>
+<p>以及物理机重启该网卡</p>
+<p>这之后就能对宝塔的web服务进行配置了。</p>
+<p>访问</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">http://你的IP地址:8888/a768f109/</span></span><br></pre></td></tr></table></figure>
+<p>输入账号密码</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">账号：eaj3yhsl</span></span><br><span class="line"><span class="string">密码：41bb8fee</span></span><br></pre></td></tr></table></figure>
+<p>这之后点击网站 =&gt;设置 =&gt; 域名管理 =&gt; 添加两个IP地址的站点</p>
+<p> <img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503233237564.png" alt="image-20240503233237564"></p>
+<p><img src="image-20240503231201812.png" alt="image-20240503231201812"></p>
+<p>访问如上的url 看到如上界面就代表成功了·</p>
+<p>进入Target2。账号密码还是左下描述有 （root ：root),还是老样子 ifconfig看配置成功没有</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231515572.png" alt="image-20240503231515572" style="zoom:67%;" /> </p>
+<p>不过这里还要回去改一下虚拟网卡的设置  设置能够连接到主机不然连不上web，连接完记得改回去</p>
+<p><img src="image-20240503231854373.png" alt="image-20240503231854373" style="zoom:50%;" /> </p>
+<p>进入web后台，这里都一样不用改了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://192.168.22.22:8888/2cc52ec0/</span><br><span class="line">账号：xdynr37d</span><br><span class="line">密码：123qwe..</span><br></pre></td></tr></table></figure>
+<p>网站 =&gt; 设置 =&gt; 添加域名 192.168.33.22 ,浏览器访问192.168.22.22页面成功就好了</p>
+<p> <img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503233549824.png" alt="image-20240503233549824" style="zoom:50%;" /></p>
+<p>最后进入Target3， 密码root，输入ipconfig</p>
+<p>能看见ip地址就说明成功 当然也可以ping一下</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234121231.png" alt="image-20240503234121231"> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234411799.png" alt="image-20240503234411799" style="zoom: 67%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503234459802.png" alt="image-20240503234459802" style="zoom:80%;" /> </p>
+<p>最后改成不连接主机，大功告成。</p>
+<p>最后还可以拍摄一下快照。</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>渗透</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test2</title>
+    <url>/posts/13bb8d58.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
