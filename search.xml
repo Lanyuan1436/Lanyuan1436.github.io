@@ -688,7 +688,7 @@
   </entry>
   <entry>
     <title>shell反弹其一</title>
-    <url>/posts/a0000003.html</url>
+    <url>/posts/a0000004.html</url>
     <content><![CDATA[<h2 id="linux文件描述符"><a href="#linux文件描述符" class="headerlink" title="linux文件描述符"></a>linux文件描述符</h2><p>文件描述符是一个非负整数（0~n），内核需要通过这个文件描述符才可以访问文件。文件描述符好比一本书的目录（索引），通过这个索引可以找到需要的内容。在Linux内核默认为每个进程创建三个标准的文件描述符0（标准输入）、1（标准输出）、2（标准错误）</p>
 <p>通过查看/proc/PID/fd目录下的文件，就可以查看每个进程拥有的文件描述符。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查看当前shell的文件描述符</span></span><br><span class="line"><span class="string">ll</span> <span class="string">/proc/$$/fd</span></span><br></pre></td></tr></table></figure>
