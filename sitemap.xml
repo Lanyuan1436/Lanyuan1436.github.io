@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://lanyuan1436.github.io/posts/a0000003.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lanyuan1436.github.io/manifest.json</loc>
     
     <lastmod>2024-06-14</lastmod>
@@ -21,24 +30,6 @@
   
   <url>
     <loc>http://lanyuan1436.github.io/tags/index.html</loc>
-    
-    <lastmod>2024-06-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lanyuan1436.github.io/bangumis/index.html</loc>
-    
-    <lastmod>2024-06-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lanyuan1436.github.io/categories/index.html</loc>
     
     <lastmod>2024-06-14</lastmod>
     
@@ -75,6 +66,24 @@
   
   <url>
     <loc>http://lanyuan1436.github.io/posts/13bb8d58.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lanyuan1436.github.io/bangumis/index.html</loc>
+    
+    <lastmod>2024-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lanyuan1436.github.io/categories/index.html</loc>
     
     <lastmod>2024-06-14</lastmod>
     
@@ -255,6 +264,20 @@
   
   <url>
     <loc>http://lanyuan1436.github.io/tags/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/</loc>
+    <lastmod>2024-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lanyuan1436.github.io/tags/%E6%89%AB%E6%8F%8F/</loc>
+    <lastmod>2024-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lanyuan1436.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
     <lastmod>2024-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
