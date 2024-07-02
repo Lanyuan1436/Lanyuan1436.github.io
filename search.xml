@@ -52,7 +52,6 @@
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">%20%09%0a</span> <span class="string">%0b</span> <span class="string">%0c</span> <span class="string">%0d</span> <span class="string">%a0/**/</span></span><br></pre></td></tr></table></figure>
 <p>最基本的绕过方法，用注释替换空格：</p>
 <p>/<em>注释</em>/</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/4d3b339fd774e21dbdb1b1e436d82e44.webp" alt="img"></p>
 <h2 id="括号绕过空格："><a href="#括号绕过空格：" class="headerlink" title="括号绕过空格："></a>括号绕过空格：</h2><p>如果空格被过滤，括号没有被过滤，可以用括号绕过。</p>
 <p>在MySQL中，括号是用来包围子查询的。因此，任何可以计算出结果的语句，都可以用括号包围起来。而括号的两端，可以没有多余的空格。</p>
 <p>例如：</p>
@@ -1200,15 +1199,15 @@
 <p>ip地址：网络号（标识ip地址是哪一个子网的），主机号（标识同一个子网的不同主机）</p>
 <h2 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h2><p>网卡-&gt;MAC；(ARP协议)</p>
 <h2 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h2><p>二进制信息传输；数据包转为电信号，让其可以在物理介质中传输。这一层就是物理层。</p>
-<h1 id="图解IP"><a href="#图解IP" class="headerlink" title="图解IP"></a>图解IP</h1><p>网关：默认寻找IP。</p>
-<p>路由表：寻找目标；</p>
+<h1 id="IP协议"><a href="#IP协议" class="headerlink" title="IP协议"></a>IP协议</h1><p>网关：默认寻找IP。</p>
+<p>路由表：寻找目标；<br>可用命令：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">route print</span><br></pre></td></tr></table></figure>
 <p>IP和MAC的关系：MAC实现直连的两个设备之间通信，IP则负责在没有直连的两个网络之间进行通信传输；</p>
 <p>源MAC地址和目标MAC地址一直在变化。源ip和目的ip不会变化。</p>
 <p>2^32=4294967269</p>
-<p>A类地址：0    0.0.0.0 ~127.255.255.255 1677w7214 2^24^-1</p>
-<p>B类地址：10    128.0.0.0 ~191.255.255.255    6w5534 2^16^-1</p>
-<p>C类地址：110    129.0.0.0~223.255.255.255    254 2^8^-1</p>
+<p>A类地址：0    0.0.0.0 ~127.255.255.255 1677w7214 2^24-1</p>
+<p>B类地址：10    128.0.0.0 ~191.255.255.255    6w5534 2^16-1</p>
+<p>C类地址：110    129.0.0.0~223.255.255.255    254 2^8-1</p>
 <p>d类地址：1110    224.0.0.0~239.255.255.255    组播地址：用于多播:多播用于<strong>将包发送给特定组内的所有主机</strong></p>
 <blockquote>
 <p>[!NOTE]</p>
@@ -1229,7 +1228,7 @@
 <p>私有 IP 地址通常是内部的 IT 人员值管理，公有 IP 地址是由 <code>ICANN</code> 组织管理，中文叫「互联网名称与数字地址分配机构」。</p>
 </blockquote>
 <p>主机号全0为网络地址，全1为广播地址（用于同一链路相互连接的主机之间发送数据包）本地广播会被接受，不同网络的直接广播默认不会设置转发。</p>
-<h2 id="IP协议"><a href="#IP协议" class="headerlink" title="IP协议"></a>IP协议</h2><h3 id="DNS协议：域名解析协议；将网站自动转为ip"><a href="#DNS协议：域名解析协议；将网站自动转为ip" class="headerlink" title="DNS协议：域名解析协议；将网站自动转为ip"></a>DNS协议：域名解析协议；将网站自动转为ip</h3><p>域名存在三个层级：根dns服务器（保存在所有互联网的dns服务器中)；顶级域dns服务器（com，cn）；权威dns服务器</p>
+<h2 id="IP协议-1"><a href="#IP协议-1" class="headerlink" title="IP协议"></a>IP协议</h2><h3 id="DNS协议：域名解析协议；将网站自动转为ip"><a href="#DNS协议：域名解析协议；将网站自动转为ip" class="headerlink" title="DNS协议：域名解析协议；将网站自动转为ip"></a>DNS协议：域名解析协议；将网站自动转为ip</h3><p>域名存在三个层级：根dns服务器（保存在所有互联网的dns服务器中)；顶级域dns服务器（com，cn）；权威dns服务器</p>
 <p>为了方便记忆而诞生的域名解析协议：过程如下。</p>
 <ol>
 <li>查看DNS缓存 浏览器缓存-&gt;操作系统缓存-&gt;host缓存；     没有转2</li>
@@ -1326,7 +1325,7 @@
   <entry>
     <title>渗透日记之端口利用</title>
     <url>/posts/e36ab591.html</url>
-    <content><![CDATA[<h1 id="黑客常用端口利用总结"><a href="#黑客常用端口利用总结" class="headerlink" title="黑客常用端口利用总结"></a>黑客常用端口利用总结</h1><h2 id="常见端口渗透"><a href="#常见端口渗透" class="headerlink" title="# 常见端口渗透"></a><a href="https://edu.yijinglab.com/post/280#常见端口渗透">#</a> 常见端口渗透</h2><div class="table-container">
+    <content><![CDATA[<h1 id="黑客常用端口利用总结"><a href="#黑客常用端口利用总结" class="headerlink" title="黑客常用端口利用总结"></a>黑客常用端口利用总结</h1><h2 id="常见端口渗透"><a href="#常见端口渗透" class="headerlink" title="# 常见端口渗透"></a><a href="">#</a> 常见端口渗透</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1514,31 +1513,31 @@
 </tbody>
 </table>
 </div>
-<h2 id="端口渗透剖析"><a href="#端口渗透剖析" class="headerlink" title="# 端口渗透剖析"></a><a href="https://edu.yijinglab.com/post/280#端口渗透剖析">#</a> 端口渗透剖析</h2><h3 id="21"><a href="#21" class="headerlink" title="# 21"></a><a href="https://edu.yijinglab.com/post/280#21">#</a> 21</h3><p>FTP通常用作对远程服务器进行管理，典型应用就是对web系统进行管理。一旦FTP密码泄露就直接威胁web系统安全，甚至黑客通过提权可以直接控制服务器。这里剖析渗透FTP服务器的几种方法。</p>
+<h2 id="端口渗透剖析"><a href="#端口渗透剖析" class="headerlink" title="端口渗透剖析"></a>端口渗透剖析</h2><h3 id="21"><a href="#21" class="headerlink" title="21"></a>21</h3><p>FTP通常用作对远程服务器进行管理，典型应用就是对web系统进行管理。一旦FTP密码泄露就直接威胁web系统安全，甚至黑客通过提权可以直接控制服务器。这里剖析渗透FTP服务器的几种方法。</p>
 <p>（1）基础爆破：ftp爆破工具很多，这里我推owasp的Bruter,hydra以及msf中的ftp爆破模块。</p>
-<p>（2) ftp匿名访问：用户名：anonymous 密码：为空或者任意邮箱</p>
-<p>（3）后门vsftpd ：version 2到2.3.4存在后门漏洞，攻击者可以通过该漏洞获取root权限。（<a href="https://www.freebuf.com/column/143480.html）">https://www.freebuf.com/column/143480.html）</a></p>
+<p>（2  ftp匿名访问：用户名：anonymous 密码：为空或者任意邮箱</p>
+<p>（3）后门vsftpd ：version 2到2.3.4存在后门漏洞，攻击者可以通过该漏洞获取root权限。</p>
 <p>（4）嗅探：ftp使用明文传输技术（但是嗅探给予局域网并需要欺骗或监听网关）,使用Cain进行渗透。</p>
-<p>（5）ftp远程代码溢出。（<a href="https://blog.csdn.net/weixin_42214273/article/details/82892282）">https://blog.csdn.net/weixin_42214273/article/details/82892282）</a></p>
-<p>（6）ftp跳转攻击。（<a href="https://blog.csdn.net/mgxcool/article/details/48249473）">https://blog.csdn.net/mgxcool/article/details/48249473）</a></p>
-<h3 id="22"><a href="#22" class="headerlink" title="# 22"></a><a href="https://edu.yijinglab.com/post/280#22">#</a> 22</h3><p>SSH 是协议，通常使用 OpenSSH 软件实现协议应用。SSH 为 Secure Shell 的缩写，由 IETF 的网络工作小组（Network Working Group）所制定；SSH 为建立在应用层和传输层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其它网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</p>
+<p>（5）ftp远程代码溢出。</p>
+<p>（6）ftp跳转攻击。</p>
+<h3 id="22"><a href="#22" class="headerlink" title="22"></a>22</h3><p>SSH 是协议，通常使用 OpenSSH 软件实现协议应用。SSH 为 Secure Shell 的缩写，由 IETF 的网络工作小组（Network Working Group）所制定；SSH 为建立在应用层和传输层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其它网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</p>
 <p>（1）弱口令，可使用工具hydra，msf中的ssh爆破模块。</p>
 <p>（2）防火墙SSH后门。（<a href="https://www.secpulse.com/archives/69093.html）">https://www.secpulse.com/archives/69093.html）</a></p>
 <p>（3）28退格 OpenSSL</p>
 <p>（4）openssh 用户枚举 CVE-2018-15473。（<a href="https://www.anquanke.com/post/id/157607）">https://www.anquanke.com/post/id/157607）</a></p>
-<h3 id="23"><a href="#23" class="headerlink" title="# 23"></a><a href="https://edu.yijinglab.com/post/280#23">#</a> 23</h3><p>telnet是一种旧的远程管理方式，使用telnet工具登录系统过程中，网络上传输的用户和密码都是以明文方式传送的，黑客可使用嗅探技术截获到此类密码。</p>
+<h3 id="23"><a href="#23" class="headerlink" title="23"></a>23</h3><p>telnet是一种旧的远程管理方式，使用telnet工具登录系统过程中，网络上传输的用户和密码都是以明文方式传送的，黑客可使用嗅探技术截获到此类密码。</p>
 <p>（1）暴力破解技术是常用的技术，使用hydra,或者msf中telnet模块对其进行破解。</p>
 <p>（2）在linux系统中一般采用SSH进行远程访问，传输的敏感数据都是经过加密的。而对于windows下的telnet来说是脆弱的，因为默认没有经过任何加密就在网络中进行传输。使用cain等嗅探工具可轻松截获远程登录密码。</p>
-<h3 id="25-465"><a href="#25-465" class="headerlink" title="# 25/465"></a><a href="https://edu.yijinglab.com/post/280#25465">#</a> 25/465</h3><p>smtp：邮件协议，在linux中默认开启这个服务，可以向对方发送钓鱼邮件</p>
+<h3 id="25-465"><a href="#25-465" class="headerlink" title="25/465"></a>25/465</h3><p>smtp：邮件协议，在linux中默认开启这个服务，可以向对方发送钓鱼邮件</p>
 <p>默认端口：25（smtp）、465（smtps）</p>
 <p>（1）爆破：弱口令</p>
 <p>（2）未授权访问</p>
-<h3 id="53"><a href="#53" class="headerlink" title="# 53"></a><a href="https://edu.yijinglab.com/post/280#53">#</a> 53</h3><p>53端口是DNS域名服务器的通信端口，通常用于域名解析。也是网络中非常关键的服务器之一。这类服务器容易受到攻击。对于此端口的渗透，一般有三种方式。</p>
-<p>（1）使用DNS远程溢出漏洞直接对其主机进行溢出攻击，成功后可直接获得系统权限。（<a href="https://www.seebug.org/vuldb/ssvid-96718）">https://www.seebug.org/vuldb/ssvid-96718）</a></p>
-<p>（2）使用DNS欺骗攻击，可对DNS域名服务器进行欺骗，如果黑客再配合网页木马进行挂马攻击，无疑是一种杀伤力很强的攻击，黑客可不费吹灰之力就控制内网的大部分主机。这也是内网渗透惯用的技法之一。（<a href="https://baijiahao.baidu.com/s?id=1577362432987749706&amp;wfr=spider&amp;for=pc）">https://baijiahao.baidu.com/s?id=1577362432987749706&amp;wfr=spider&amp;for=pc）</a></p>
-<p>（3）拒绝服务攻击，利用拒绝服务攻击可快速的导致目标服务器运行缓慢，甚至网络瘫痪。如果使用拒绝服务攻击其DNS服务器。将导致用该服务器进行域名解析的用户无法正常上网。（<a href="http://www.edu.cn/xxh/fei/zxz/201503/t20150305_1235269.shtml）">http://www.edu.cn/xxh/fei/zxz/201503/t20150305_1235269.shtml）</a></p>
-<p>（4）DNS劫持。（<a href="https://blog.csdn.net/qq_32447301/article/details/77542474）">https://blog.csdn.net/qq_32447301/article/details/77542474）</a></p>
-<h3 id="80"><a href="#80" class="headerlink" title="# 80"></a><a href="https://edu.yijinglab.com/post/280#80">#</a> 80</h3><p>80端口通常提供web服务。目前黑客对80端口的攻击典型是采用SQL注入的攻击方法，脚本渗透技术也是一项综合性极高的web渗透技术，同时脚本渗透技术对80端口也构成严重的威胁。</p>
+<h3 id="53"><a href="#53" class="headerlink" title="53"></a>53</h3><p>53端口是DNS域名服务器的通信端口，通常用于域名解析。也是网络中非常关键的服务器之一。这类服务器容易受到攻击。对于此端口的渗透，一般有三种方式。</p>
+<p>（1）使用DNS远程溢出漏洞直接对其主机进行溢出攻击，成功后可直接获得系统权限。</p>
+<p>（2）使用DNS欺骗攻击，可对DNS域名服务器进行欺骗，如果黑客再配合网页木马进行挂马攻击，无疑是一种杀伤力很强的攻击，黑客可不费吹灰之力就控制内网的大部分主机。这也是内网渗透惯用的技法之一。</p>
+<p>（3）拒绝服务攻击，利用拒绝服务攻击可快速的导致目标服务器运行缓慢，甚至网络瘫痪。如果使用拒绝服务攻击其DNS服务器。将导致用该服务器进行域名解析的用户无法正常上网。</p>
+<p>（4）DNS劫持。</p>
+<h3 id="80"><a href="#80" class="headerlink" title="80"></a>80</h3><p>80端口通常提供web服务。目前黑客对80端口的攻击典型是采用SQL注入的攻击方法，脚本渗透技术也是一项综合性极高的web渗透技术，同时脚本渗透技术对80端口也构成严重的威胁。</p>
 <p>（1）对于windows2000的IIS5.0版本，黑客使用远程溢出直接对远程主机进行溢出攻击，成功后直接获得系统权限。</p>
 <p>（2）对于windows2000中IIS5.0版本，黑客也尝试利用‘Microsoft IISCGI’文件名错误解码漏洞攻击。</p>
 <p>（3）IIS写权限漏洞是由于IIS配置不当造成的安全问题，攻击者可向存在此类漏洞的服务器上传恶意代码，比如上传脚本木马扩大控制权限。</p>
@@ -1546,78 +1545,70 @@
 <p>（5）80端口的攻击，更多的是采用脚本渗透技术，利用web应用程序的漏洞进行渗透是目前很流行的攻击方式。</p>
 <p>（6）对于渗透只开放80端口的服务器来说，难度很大。利用端口复用工具可解决此类技术难题。</p>
 <p>（7）CC攻击效果不及DDOS效果明显，但是对于攻击一些小型web站点还是比较有用的。CC攻击可使目标站点运行缓慢，页面无法打开，有时还会爆出web程序的绝对路径。</p>
-<h3 id="135"><a href="#135" class="headerlink" title="# 135"></a><a href="https://edu.yijinglab.com/post/280#135">#</a> 135</h3><p>135端口主要用于使用RPC协议并提供DCOM服务，通过RPC可以保证在一台计算机上运行的程序可以顺利地执行远程计算机上的代码；使用DCOM可以通过网络直接进行通信，能够跨包括HTTP协议在内的多种网络传输。同时这个端口也爆出过不少漏洞，最严重的就是缓冲区溢出漏洞，曾经疯狂一时的‘冲击波’病毒就是利用这个漏洞进行传播的。对于135端口的渗透，黑客的渗透方法为:</p>
-<p>（1）查找存在RPC溢出的主机，进行远程溢出攻击，直接获得系统权限。如用‘DSScan’扫描存在此漏洞的主机。对存在漏洞的主机可使用‘ms05011.exe’进行溢出，溢出成功后获得系统权限。（<a href="https://wenku.baidu.com/view/68b3340c79563c1ec5da710a.html）">https://wenku.baidu.com/view/68b3340c79563c1ec5da710a.html）</a></p>
-<p>（2）扫描存在弱口令的135主机，利用RPC远程过程调用开启telnet服务并登录telnet执行系统命令。系统弱口令的扫描一般使用hydra。对于telnet服务的开启可使用工具kali链接。（<a href="https://wenku.baidu.com/view/c8b96ae2700abb68a982fbdf.html）">https://wenku.baidu.com/view/c8b96ae2700abb68a982fbdf.html）</a></p>
-<h3 id="139-445"><a href="#139-445" class="headerlink" title="# 139/445"></a><a href="https://edu.yijinglab.com/post/280#139445">#</a> 139/445</h3><p>139端口是为‘NetBIOS SessionService’提供的，主要用于提供windows文件和打印机共享以及UNIX中的Samba服务。445端口也用于提供windows文件和打印机共享，在内网环境中使用的很广泛。这两个端口同样属于重点攻击对象，139/445端口曾出现过许多严重级别的漏洞。下面剖析渗透此类端口的基本思路。</p>
-<p>（1）对于开放139/445端口的主机，一般尝试利用溢出漏洞对远程主机进行溢出攻击，成功后直接获得系统权限。利用msf的ms-017永恒之蓝。（<a href="https://blog.csdn.net/qq_41880069/article/details/82908131）">https://blog.csdn.net/qq_41880069/article/details/82908131）</a></p>
-<p>（2）对于攻击只开放445端口的主机，黑客一般使用工具‘MS06040’或‘MS08067’.可使用专用的445端口扫描器进行扫描。NS08067溢出工具对windows2003系统的溢出十分有效，工具基本使用参数在cmd下会有提示。（<a href="https://blog.csdn.net/god_7z1/article/details/6773652）">https://blog.csdn.net/god_7z1/article/details/6773652）</a></p>
-<p>（3）对于开放139/445端口的主机，黑客一般使用IPC$进行渗透。在没有使用特点的账户和密码进行空连接时，权限是最小的。获得系统特定账户和密码成为提升权限的关键了，比如获得administrator账户的口令。（<a href="https://blog.warhut.cn/dmbj/145.html）">https://blog.warhut.cn/dmbj/145.html）</a></p>
+<h3 id="135"><a href="#135" class="headerlink" title="135"></a>135</h3><p>135端口主要用于使用RPC协议并提供DCOM服务，通过RPC可以保证在一台计算机上运行的程序可以顺利地执行远程计算机上的代码；使用DCOM可以通过网络直接进行通信，能够跨包括HTTP协议在内的多种网络传输。同时这个端口也爆出过不少漏洞，最严重的就是缓冲区溢出漏洞，曾经疯狂一时的‘冲击波’病毒就是利用这个漏洞进行传播的。对于135端口的渗透，黑客的渗透方法为:</p>
+<p>（1）查找存在RPC溢出的主机，进行远程溢出攻击，直接获得系统权限。如用‘DSScan’扫描存在此漏洞的主机。对存在漏洞的主机可使用‘ms05011.exe’进行溢出，溢出成功后获得系统权限。</p>
+<p>（2）扫描存在弱口令的135主机，利用RPC远程过程调用开启telnet服务并登录telnet执行系统命令。系统弱口令的扫描一般使用hydra。对于telnet服务的开启可使用工具kali链接。</p>
+<h3 id="139-445"><a href="#139-445" class="headerlink" title="139/445"></a>139/445</h3><p>139端口是为‘NetBIOS SessionService’提供的，主要用于提供windows文件和打印机共享以及UNIX中的Samba服务。445端口也用于提供windows文件和打印机共享，在内网环境中使用的很广泛。这两个端口同样属于重点攻击对象，139/445端口曾出现过许多严重级别的漏洞。下面剖析渗透此类端口的基本思路。</p>
+<p>（1）对于开放139/445端口的主机，一般尝试利用溢出漏洞对远程主机进行溢出攻击，成功后直接获得系统权限。利用msf的ms-017永恒之蓝。</p>
+<p>（2）对于攻击只开放445端口的主机，黑客一般使用工具‘MS06040’或‘MS08067’.可使用专用的445端口扫描器进行扫描。NS08067溢出工具对windows2003系统的溢出十分有效，工具基本使用参数在cmd下会有提示。</p>
+<p>（3）对于开放139/445端口的主机，黑客一般使用IPC$进行渗透。在没有使用特点的账户和密码进行空连接时，权限是最小的。获得系统特定账户和密码成为提升权限的关键了，比如获得administrator账户的口令。</p>
 <p>（4）对于开放139/445端口的主机，可利用共享获取敏感信息，这也是内网渗透中收集信息的基本途径。</p>
-<h3 id="1433"><a href="#1433" class="headerlink" title="# 1433"></a><a href="https://edu.yijinglab.com/post/280#1433">#</a> 1433</h3><p>1433是SQLServer默认的端口，SQL Server服务使用两个端口：tcp-1433、UDP-1434.其中1433用于供SQLServer对外提供服务，1434用于向请求者返回SQLServer使用了哪些TCP/IP端口。1433端口通常遭到黑客的攻击，而且攻击的方式层出不穷。最严重的莫过于远程溢出漏洞了，如由于SQL注射攻击的兴起，各类数据库时刻面临着安全威胁。利用SQL注射技术对数据库进行渗透是目前比较流行的攻击方式，此类技术属于脚本渗透技术。</p>
-<p>（1）对于开放1433端口的SQL Server2000的数据库服务器，黑客尝试使用远程溢出漏洞对主机进行溢出测试，成功后直接获得系统权限。（<a href="https://blog.csdn.net/gxj022/article/details/4593015）">https://blog.csdn.net/gxj022/article/details/4593015）</a></p>
-<p>（2）暴力破解技术是一项经典的技术。一般破解的对象都是SA用户。通过字典破解的方式很快破解出SA的密码。（<a href="https://blog.csdn.net/kali_linux/article/details/50499576）">https://blog.csdn.net/kali_linux/article/details/50499576）</a></p>
-<p>（3）嗅探技术同样能嗅探到SQL Server的登录密码。</p>
+<h3 id="1433"><a href="#1433" class="headerlink" title="1433"></a>1433</h3><p>1433是SQLServer默认的端口，SQL Server服务使用两个端口：tcp-1433、UDP-1434.其中1433用于供SQLServer对外提供服务，1434用于向请求者返回SQLServer使用了哪些TCP/IP端口。1433端口通常遭到黑客的攻击，而且攻击的方式层出不穷。最严重的莫过于远程溢出漏洞了，如由于SQL注射攻击的兴起，各类数据库时刻面临着安全威胁。利用SQL注射技术对数据库进行渗透是目前比较流行的攻击方式，此类技术属于脚本渗透技术。</p>
+<p>（1）对于开放1433端口的SQL Server2000的数据库服务器，黑客尝试使用远程溢出漏洞对主机进行溢出测试，成功后直接获得系统权限。</p>
+<p>（2）暴力破解技术是一项经典的技术。一般破解的对象都是SA用户。通过字典破解的方式很快破解出SA的密码。<br>（3）嗅探技术同样能嗅探到SQL Server的登录密码。</p>
 <p>（4）由于脚本程序编写的不严密，例如，程序员对参数过滤不严等，这都会造成严重的注射漏洞。通过SQL注射可间接性的对数据库服务器进行渗透，通过调用一些存储过程执行系统命令。可以使用SQL综合利用工具完成。</p>
-<h3 id="1521"><a href="#1521" class="headerlink" title="# 1521"></a><a href="https://edu.yijinglab.com/post/280#1521">#</a> 1521</h3><p>1521是大型数据库Oracle的默认监听端口，估计新手还对此端口比较陌生，平时大家接触的比较多的是Access，MSSQL以及MYSQL这三种数据库。一般大型站点才会部署这种比较昂贵的数据库系统。对于渗透这种比较复杂的数据库系统，黑客的思路如下：</p>
+<h3 id="1521"><a href="#1521" class="headerlink" title="1521"></a>1521</h3><p>1521是大型数据库Oracle的默认监听端口，估计新手还对此端口比较陌生，平时大家接触的比较多的是Access，MSSQL以及MYSQL这三种数据库。一般大型站点才会部署这种比较昂贵的数据库系统。对于渗透这种比较复杂的数据库系统，黑客的思路如下：</p>
 <p>（1）Oracle拥有非常多的默认用户名和密码，为了获得数据库系统的访问权限，破解数据库系统用户以及密码是黑客必须攻破的一道安全防线。</p>
 <p>（2）SQL注射同样对Oracle十分有效，通过注射可获得数据库的敏感信息，包括管理员密码等。</p>
 <p>（3）在注入点直接创建java，执行系统命令。</p>
 <p>（4）<a href="https://www.leiphone.com/news/201711/JjzXFp46zEPMvJod.html">https://www.leiphone.com/news/201711/JjzXFp46zEPMvJod.html</a></p>
-<h3 id="2049"><a href="#2049" class="headerlink" title="# 2049"></a><a href="https://edu.yijinglab.com/post/280#2049">#</a> 2049</h3><p>NFS（Network File System）即网络文件系统，是FreeBSD支持的文件系统中的一种，它允许网络中的计算机之间通过TCP/IP网络共享资源。在NFS的应用中，本地NFS的客户端应用可以透明地读写位于远端NFS服务器上的文件，就像访问本地文件一样。如今NFS具备了防止被利用导出文件夹的功能，但遗留系统中的NFS服务配置不当，则仍可能遭到恶意攻击者的利用。</p>
+<h3 id="2049"><a href="#2049" class="headerlink" title="2049"></a>2049</h3><p>NFS（Network File System）即网络文件系统，是FreeBSD支持的文件系统中的一种，它允许网络中的计算机之间通过TCP/IP网络共享资源。在NFS的应用中，本地NFS的客户端应用可以透明地读写位于远端NFS服务器上的文件，就像访问本地文件一样。如今NFS具备了防止被利用导出文件夹的功能，但遗留系统中的NFS服务配置不当，则仍可能遭到恶意攻击者的利用。</p>
 <p>未授权访问。（<a href="https://www.freebuf.com/articles/network/159468.html）">https://www.freebuf.com/articles/network/159468.html）</a> (<a href="http://www.secist.com/archives/6192.htm">http://www.secist.com/archives/6192.htm</a>)</p>
-<h3 id="3306"><a href="#3306" class="headerlink" title="# 3306"></a><a href="https://edu.yijinglab.com/post/280#3306">#</a> 3306</h3><p>3306是MYSQL数据库默认的监听端口，通常部署在中型web系统中。在国内LAMP的配置是非常流行的，对于php+mysql构架的攻击也是属于比较热门的话题。mysql数据库允许用户使用自定义函数功能，这使得黑客可编写恶意的自定义函数对服务器进行渗透，最后取得服务器最高权限。对于3306端口的渗透，黑客的方法如下:</p>
+<h3 id="3306"><a href="#3306" class="headerlink" title="3306"></a>3306</h3><p>3306是MYSQL数据库默认的监听端口，通常部署在中型web系统中。在国内LAMP的配置是非常流行的，对于php+mysql构架的攻击也是属于比较热门的话题。mysql数据库允许用户使用自定义函数功能，这使得黑客可编写恶意的自定义函数对服务器进行渗透，最后取得服务器最高权限。对于3306端口的渗透，黑客的方法如下:</p>
 <p>（1）由于管理者安全意识淡薄，通常管理密码设置过于简单，甚至为空口令。使用破解软件很容易破解此类密码，利用破解的密码登录远程mysql数据库，上传构造的恶意UDF自定义函数代码进行注册，通过调用注册的恶意函数执行系统命令。或者向web目录导出恶意的脚本程序，以控制整个web系统。</p>
 <p>（2）功能强大的‘cain’同样支持对3306端口的嗅探，同时嗅探也是渗透思路的一种。</p>
 <p>（3）SQL注入同样对mysql数据库威胁巨大，不仅可以获取数据库的敏感信息，还可使用load_file()函数读取系统的敏感配置文件或者从web数据库链接文件中获得root口令等，导出恶意代码到指定路径等。</p>
-<h3 id="3389"><a href="#3389" class="headerlink" title="# 3389"></a><a href="https://edu.yijinglab.com/post/280#3389">#</a> 3389</h3><p>3389是windows远程桌面服务默认监听的端口，管理员通过远程桌面对服务器进行维护，这给管理工作带来的极大的方便。通常此端口也是黑客们较为感兴趣的端口之一，利用它可对远程服务器进行控制，而且不需要另外安装额外的软件，实现方法比较简单。当然这也是系统合法的服务，通常是不会被杀毒软件所查杀的。使用‘输入法漏洞’进行渗透。</p>
+<h3 id="3389"><a href="#3389" class="headerlink" title="3389"></a>3389</h3><p>3389是windows远程桌面服务默认监听的端口，管理员通过远程桌面对服务器进行维护，这给管理工作带来的极大的方便。通常此端口也是黑客们较为感兴趣的端口之一，利用它可对远程服务器进行控制，而且不需要另外安装额外的软件，实现方法比较简单。当然这也是系统合法的服务，通常是不会被杀毒软件所查杀的。使用‘输入法漏洞’进行渗透。</p>
 <p>（1）对于windows2000的旧系统版本，使用‘输入法漏洞’进行渗透。</p>
-<p>（2）cain是一款超级的渗透工具，同样支持对3389端口的嗅探。</p>
+<p>（2）cain是一款渗透工具，同样支持对3389端口的嗅探。</p>
 <p>（3）Shift粘滞键后门：5次shift后门</p>
-<p>（4）社会工程学通常是最可怕的攻击技术，如果管理者的一切习惯和规律被黑客摸透的话，那么他管理的网络系统会因为他的弱点被渗透。</p>
-<p>（5）爆破3389端口。这里还是推荐使用hydra爆破工具。</p>
-<p>（6）ms12_020死亡蓝屏攻击。（<a href="https://www.cnblogs.com/R-Hacker/p/9178066.html）">https://www.cnblogs.com/R-Hacker/p/9178066.html）</a></p>
+<p>（4）社会工程学。</p>
+<p>（5）爆破3389端口。推荐使用hydra爆破工具。</p>
+<p>（6）ms12_020死亡蓝屏攻击。</p>
 <p>（7）<a href="https://www.cnblogs.com/backlion/p/9429738.html">https://www.cnblogs.com/backlion/p/9429738.html</a></p>
-<h3 id="4899"><a href="#4899" class="headerlink" title="# 4899"></a><a href="https://edu.yijinglab.com/post/280#4899">#</a> 4899</h3><p>4899端口是remoteadministrator远程控制软件默认监听的端口，也就是平时常说的radmini影子。radmini目前支持TCP/IP协议，应用十分广泛，在很多服务器上都会看到该款软件的影子。对于此软件的渗透，思路如下：</p>
+<h3 id="4899"><a href="#4899" class="headerlink" title="4899"></a>4899</h3><p>4899端口是remoteadministrator远程控制软件默认监听的端口，也就是平时常说的radmini影子。radmini目前支持TCP/IP协议，应用十分广泛，在很多服务器上都会看到该款软件的影子。对于此软件的渗透，思路如下：</p>
 <p>（1）radmini同样存在不少弱口令的主机，通过专用扫描器可探测到此类存在漏洞的主机。</p>
 <p>（2）radmini远控的连接密码和端口都是写入到注册表系统中的，通过使用webshell注册表读取功能可读取radmini在注册表的各项键值内容，从而破解加密的密码散列。</p>
-<h3 id="5432"><a href="#5432" class="headerlink" title="# 5432"></a><a href="https://edu.yijinglab.com/post/280#5432">#</a> 5432</h3><p>PostgreSQL是一种特性非常齐全的自由软件的对象–关系型数据库管理系统，可以说是目前世界上最先进，功能最强大的自由数据库管理系统。包括kali系统中msf也使用这个数据库；浅谈postgresql数据库攻击技术 大部分关于它的攻击依旧是sql注入，所以注入才是数据库不变的话题。</p>
+<h3 id="5432"><a href="#5432" class="headerlink" title="5432"></a>5432</h3><p>PostgreSQL是一种特性非常齐全的自由软件的对象–关系型数据库管理系统，可以说是目前世界上最先进，功能最强大的自由数据库管理系统。包括kali系统中msf也使用这个数据库；</p>
 <p>（1）爆破：弱口令：postgres postgres</p>
-<p>（2）缓冲区溢出：CVE-2014-2669。（<a href="http://drops.xmd5.com/static/drops/tips-6449.html）">http://drops.xmd5.com/static/drops/tips-6449.html）</a></p>
-<p>（3）远程代码执行：CVE-2018-1058。（<a href="https://www.secpulse.com/archives/69153.html）">https://www.secpulse.com/archives/69153.html）</a></p>
-<h3 id="5631"><a href="#5631" class="headerlink" title="# 5631"></a><a href="https://edu.yijinglab.com/post/280#5631">#</a> 5631</h3><p>5631端口是著名远程控制软件pcanywhere的默认监听端口，同时也是世界领先的远程控制软件。利用此软件，用户可以有效管理计算机并快速解决技术支持问题。由于软件的设计缺陷，使得黑客可随意下载保存连接密码的*.cif文件，通过专用破解软件进行破解。这些操作都必须在拥有一定权限下才可完成，至少通过脚本渗透获得一个webshell。通常这些操作在黑客界被称为pcanywhere提权技术。</p>
+<p>（2）缓冲区溢出：CVE-2014-2669。</p>
+<p>（3）远程代码执行：CVE-2018-1058。</p>
+<h3 id="5631"><a href="#5631" class="headerlink" title="5631"></a>5631</h3><p>5631端口是著名远程控制软件pcanywhere的默认监听端口，同时也是世界领先的远程控制软件。利用此软件，用户可以有效管理计算机并快速解决技术支持问题。由于软件的设计缺陷，使得黑客可随意下载保存连接密码的*.cif文件，通过专用破解软件进行破解。这些操作都必须在拥有一定权限下才可完成，至少通过脚本渗透获得一个webshell。这些操作被称为pcanywhere提权技术。</p>
 <p>PcAnyWhere提权。<a href="https://blog.csdn.net/Fly_hps/article/details/80377199">https://blog.csdn.net/Fly_hps/article/details/80377199</a></p>
-<h3 id="5900"><a href="#5900" class="headerlink" title="# 5900"></a><a href="https://edu.yijinglab.com/post/280#5900">#</a> 5900</h3><p>5900端口是优秀远程控制软件VNC的默认监听端口，此软件由著名的AT&amp;T的欧洲研究实验室开发的。VNC是在基于unix和linux操作系统的免费的开放源码软件，远程控制能力强大，高效实用，其性能可以和windows和MAC中的任何一款控制软件媲美。对于该端口的渗透，思路如下：</p>
+<h3 id="5900"><a href="#5900" class="headerlink" title="5900"></a>5900</h3><p>5900端口是优秀远程控制软件VNC的默认监听端口，此软件由著名的AT&amp;T的欧洲研究实验室开发的。VNC是在基于unix和linux操作系统的免费的开放源码软件，远程控制能力强大，高效实用，其性能可以和windows和MAC中的任何一款控制软件媲美。对于该端口的渗透，思路如下：</p>
 <p>（1）VNC软件存在密码验证绕过漏洞，此高危漏洞可以使得恶意攻击者不需要密码就可以登录到一个远程系统。</p>
 <p>（2）cain同样支持对VNC的嗅探，同时支持端口修改。</p>
 <p>（3）VNC的配置信息同样被写入注册表系统中，其中包括连接的密码和端口。利用webshell的注册表读取功能进行读取加密算法，然后破解。</p>
 <p>（4）VNC拒绝服务攻击（CVE-2015-5239）</p>
 <p>（5）VNC权限提升（CVE-2013-6886）</p>
-<h3 id="6379"><a href="#6379" class="headerlink" title="# 6379"></a><a href="https://edu.yijinglab.com/post/280#6379">#</a> 6379</h3><p>Redis是一个开源的使用c语言写的，支持网络、可基于内存亦可持久化的日志型、key-value数据库。关于这个数据库这两年还是很火的，暴露出来的问题也很多。特别是前段时间暴露的未授权访问。</p>
+<h3 id="6379"><a href="#6379" class="headerlink" title="6379"></a>6379</h3><p>Redis是一个开源的使用c语言写的，支持网络、可基于内存亦可持久化的日志型、key-value数据库。关于这个数据库这两年还是很火的，暴露出来的问题也很多。特别是前段时间暴露的未授权访问。</p>
 <p>（1）爆破：弱口令</p>
 <p>（2）未授权访问+配合ssh key提权。（<a href="http://www.alloyteam.com/2017/07/12910/）">http://www.alloyteam.com/2017/07/12910/）</a></p>
-<h3 id="7001-7002"><a href="#7001-7002" class="headerlink" title="# 7001/7002"></a><a href="https://edu.yijinglab.com/post/280#70017002">#</a> 7001/7002</h3><p>7001/7002通常是weblogic中间件端口</p>
+<h3 id="7001-7002"><a href="#7001-7002" class="headerlink" title="7001/7002"></a>7001/7002</h3><p>7001/7002通常是weblogic中间件端口</p>
 <p>（1）弱口令、爆破，弱密码一般为weblogic/Oracle@123 or weblogic</p>
 <p>（2）管理后台部署 war 后门</p>
 <p>（3）SSRF</p>
 <p>（4）反序列化漏洞</p>
 <p>（5）weblogic_uac</p>
-<blockquote>
-<p><a href="https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf">https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf</a></p>
-<p><a href="https://bbs.pediy.com/thread-224954.htm">https://bbs.pediy.com/thread-224954.htm</a></p>
-<p><a href="https://fuping.site/2017/06/05/Weblogic-Vulnerability-Verification/">https://fuping.site/2017/06/05/Weblogic-Vulnerability-Verification/</a></p>
-<p><a href="https://blog.gdssecurity.com/labs/2015/3/30/weblogic-ssrf-and-xss-cve-2014-4241-cve-2014-4210-cve-2014-4.html">https://blog.gdssecurity.com/labs/2015/3/30/weblogic-ssrf-and-xss-cve-2014-4241-cve-2014-4210-cve-2014-4.html</a></p>
-</blockquote>
-<h3 id="8080"><a href="#8080" class="headerlink" title="# 8080"></a><a href="https://edu.yijinglab.com/post/280#8080">#</a> 8080</h3><p>8080端口通常是apache_Tomcat服务器默认监听端口，apache是世界使用排名第一的web服务器。国内很多大型系统都是使用apache服务器，对于这种大型服务器的渗透，主要有以下方法：</p>
-<p>（1）Tomcat远程代码执行漏洞 <a href="https://www.freebuf.com/column/159200.html">https://www.freebuf.com/column/159200.html</a></p>
-<p>（2）Tomcat任意文件上传。<a href="http://liehu.tass.com.cn/archives/836">http://liehu.tass.com.cn/archives/836</a></p>
-<p>（3）Tomcat远程代码执行&amp;信息泄露。<a href="https://paper.seebug.org/399/">https://paper.seebug.org/399/</a></p>
-<p>（4）Jboss远程代码执行 <a href="http://mobile.www.cnblogs.com/Safe3/archive/2010/01/08/1642371.html">http://mobile.www.cnblogs.com/Safe3/archive/2010/01/08/1642371.html</a></p>
-<p>（5）Jboss反序列化漏洞。<a href="https://www.zybuluo.com/websec007/note/838374">https://www.zybuluo.com/websec007/note/838374</a></p>
-<p>（6）Jboss漏洞利用。<a href="https://blog.csdn.net/u011215939/article/details/79141624">https://blog.csdn.net/u011215939/article/details/79141624</a></p>
-<h3 id="27017"><a href="#27017" class="headerlink" title="# 27017"></a><a href="https://edu.yijinglab.com/post/280#27017">#</a> 27017</h3><p>MongoDB，NoSQL数据库；攻击方法与其他数据库类似</p>
+<h3 id="8080"><a href="#8080" class="headerlink" title="8080"></a>8080</h3><p>8080端口通常是apache_Tomcat服务器默认监听端口，apache是世界使用排名第一的web服务器。国内很多大型系统都是使用apache服务器，对于这种大型服务器的渗透，主要有以下方法：</p>
+<p>（1）Tomcat远程代码执行漏洞 </p>
+<p>（2）Tomcat任意文件上传。</p>
+<p>（3）Tomcat远程代码执行&amp;信息泄露。</p>
+<p>（4）Jboss远程代码执行</p>
+<p>（5）Jboss反序列化漏洞。</p>
+<h3 id="27017"><a href="#27017" class="headerlink" title="27017"></a>27017</h3><p>MongoDB，NoSQL数据库；攻击方法与其他数据库类似</p>
 <p>（1）爆破：弱口令</p>
-<p>（2）未授权访问；（<a href="http://www.cnblogs.com/LittleHann/p/6252421.html）">http://www.cnblogs.com/LittleHann/p/6252421.html）</a></p>
+<p>（2）未授权访问；</p>
 <p>（3）<a href="http://www.tiejiang.org/19157.html">http://www.tiejiang.org/19157.html</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Rsync:rsync 是一个常用的 Linux 应用程序，用于文件同步。</span><br><span class="line">873端口</span><br><span class="line">它可以在本地计算机与远程计算机之间，或者两个本地目录之间同步文件（但不支持两台远程计算机之间的同步）。它也可以当作文件复制工具，替代cp和mv命令。</span><br><span class="line">它名称里面的r指的是 remote，rsync 其实就是&quot;远程同步&quot;（remote sync）的意思。与其他文件传输工具（如 FTP 或 scp）不同，rsync 的最大特点是会检查发送方和接收方已有的文件，仅传输有变动的部分（默认规则是文件大小或修改时间有变动）。</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Socks5:sosks代理服务协议默认的服务端口号，用于监听传入的连接请求。 当一个客户端应用程序需要使用Sock5代理连接远程服务器时，它将会通过1080端口向代理服务器发送连接请求。</span><br></pre></td></tr></table></figure>
